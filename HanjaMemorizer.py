@@ -1,10 +1,11 @@
 ﻿"""
-한자 암기 프로그램 v2
+한자 암기 프로그램 v3
 - 로컬 엑셀 파일 로드
 - 구글 시트 URL로 로드
 - 이전 파일 캐싱 및 드롭다운 선택
 - 한자 2초 표시 → 음/뜻 2초 표시 반복
 - 랜덤 순서로 학습
+- 암기완료 토글 기능 (전체모드 / 미암기모드)
 """
 
 import sys
@@ -17,26 +18,38 @@ import pandas as pd
 from PyQt5.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
     QPushButton, QLabel, QFileDialog, QMessageBox, QFrame, QSpinBox,
-    QGroupBox, QProgressBar, QComboBox, QLineEdit, QDialog, QDialogButtonBox
+    QGroupBox, QProgressBar, QComboBox, QLineEdit, QDialog, QDialogButtonBox,
+    QCheckBox, QButtonGroup, QRadioButton
 )
 from PyQt5.QtCore import Qt, QTimer
 from PyQt5.QtGui import QFont
 
 
-# 캐시 디렉토리 설정
-CACHE_DIR = os.path.join(os.path.expanduser("~"), ".hanja_memorizer")
-CACHE_INDEX_FILE = os.path.join(CACHE_DIR, "cache_index.json")
+# 캐시 디렉토리 설정 (py파일이 있는 폴더에 저장)
+def get_app_dir():
+    """py파일이 있는 디렉토리 반환"""
+    if getattr(sys, 'frozen', False):
+        # exe로 빌드된 경우
+        return os.path.dirname(sys.executable)
+    else:
+        # py파일로 실행하는 경우
+        return os.path.dirname(os.path.abspath(__file__))
+
+APP_DIR = get_app_dir()
+DATA_DIR = os.path.join(APP_DIR, "data")
+CACHE_INDEX_FILE = os.path.join(DATA_DIR, "cache_index.json")
+MEMORIZED_FILE = os.path.join(DATA_DIR, "memorized_hanja.json")
 
 
-def ensure_cache_dir():
-    """캐시 디렉토리 생성"""
-    if not os.path.exists(CACHE_DIR):
-        os.makedirs(CACHE_DIR)
+def ensure_data_dir():
+    """데이터 디렉토리 생성"""
+    if not os.path.exists(DATA_DIR):
+        os.makedirs(DATA_DIR)
 
 
 def load_cache_index():
     """캐시 인덱스 로드"""
-    ensure_cache_dir()
+    ensure_data_dir()
     if os.path.exists(CACHE_INDEX_FILE):
         try:
             with open(CACHE_INDEX_FILE, 'r', encoding='utf-8') as f:
@@ -48,32 +61,75 @@ def load_cache_index():
 
 def save_cache_index(index):
     """캐시 인덱스 저장"""
-    ensure_cache_dir()
+    ensure_data_dir()
     with open(CACHE_INDEX_FILE, 'w', encoding='utf-8') as f:
         json.dump(index, f, ensure_ascii=False, indent=2)
 
 
+def load_memorized_hanja():
+    """암기완료 한자 목록 로드"""
+    ensure_data_dir()
+    if os.path.exists(MEMORIZED_FILE):
+        try:
+            with open(MEMORIZED_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except:
+            return {"memorized": []}
+    return {"memorized": []}
+
+
+def save_memorized_hanja(data):
+    """암기완료 한자 목록 저장"""
+    ensure_data_dir()
+    with open(MEMORIZED_FILE, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def add_memorized(hanja):
+    """암기완료 한자 추가"""
+    data = load_memorized_hanja()
+    if hanja not in data["memorized"]:
+        data["memorized"].append(hanja)
+        save_memorized_hanja(data)
+    return data["memorized"]
+
+
+def remove_memorized(hanja):
+    """암기완료 한자 제거"""
+    data = load_memorized_hanja()
+    if hanja in data["memorized"]:
+        data["memorized"].remove(hanja)
+        save_memorized_hanja(data)
+    return data["memorized"]
+
+
+def is_memorized(hanja):
+    """암기완료 여부 확인"""
+    data = load_memorized_hanja()
+    return hanja in data["memorized"]
+
+
+def get_memorized_count():
+    """암기완료 한자 개수"""
+    data = load_memorized_hanja()
+    return len(data["memorized"])
+
+
 def add_to_cache(name, source_type, source_path, data):
     """데이터를 캐시에 추가"""
-    ensure_cache_dir()
+    ensure_data_dir()
     
-    # 캐시 파일명 생성
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     safe_name = re.sub(r'[^\w\-_]', '_', name)[:50]
     cache_filename = f"{safe_name}_{timestamp}.json"
-    cache_filepath = os.path.join(CACHE_DIR, cache_filename)
+    cache_filepath = os.path.join(DATA_DIR, cache_filename)
     
-    # 데이터 저장
     with open(cache_filepath, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     
-    # 인덱스 업데이트
     index = load_cache_index()
-    
-    # 중복 제거 (같은 소스 경로)
     index["files"] = [f for f in index["files"] if f.get("source_path") != source_path]
     
-    # 새 항목 추가
     index["files"].insert(0, {
         "name": name,
         "source_type": source_type,
@@ -83,14 +139,12 @@ def add_to_cache(name, source_type, source_path, data):
         "count": len(data)
     })
     
-    # 최대 20개까지만 유지
     if len(index["files"]) > 20:
         old_files = index["files"][20:]
         index["files"] = index["files"][:20]
         
-        # 오래된 캐시 파일 삭제
         for old in old_files:
-            old_path = os.path.join(CACHE_DIR, old["cache_file"])
+            old_path = os.path.join(DATA_DIR, old["cache_file"])
             if os.path.exists(old_path):
                 os.remove(old_path)
     
@@ -100,7 +154,7 @@ def add_to_cache(name, source_type, source_path, data):
 
 def load_from_cache(cache_filename):
     """캐시에서 데이터 로드"""
-    cache_filepath = os.path.join(CACHE_DIR, cache_filename)
+    cache_filepath = os.path.join(DATA_DIR, cache_filename)
     if os.path.exists(cache_filepath):
         with open(cache_filepath, 'r', encoding='utf-8') as f:
             return json.load(f)
@@ -159,17 +213,14 @@ class GoogleSheetDialog(QDialog):
         layout.setSpacing(15)
         layout.setContentsMargins(20, 20, 20, 20)
         
-        # 안내 라벨
         info_label = QLabel("구글 시트 URL을 입력하세요.\n(시트가 '링크가 있는 모든 사용자에게 공개'로 설정되어야 합니다)")
         info_label.setWordWrap(True)
         layout.addWidget(info_label)
         
-        # URL 입력
         self.url_input = QLineEdit()
         self.url_input.setPlaceholderText("https://docs.google.com/spreadsheets/d/...")
         layout.addWidget(self.url_input)
         
-        # 시트 이름 입력
         name_layout = QHBoxLayout()
         name_label = QLabel("저장 이름:")
         name_layout.addWidget(name_label)
@@ -178,7 +229,6 @@ class GoogleSheetDialog(QDialog):
         name_layout.addWidget(self.name_input)
         layout.addLayout(name_layout)
         
-        # 버튼
         button_box = QDialogButtonBox(
             QDialogButtonBox.Ok | QDialogButtonBox.Cancel
         )
@@ -213,7 +263,8 @@ class GoogleSheetDialog(QDialog):
 class HanjaMemorizer(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.hanja_list = []
+        self.hanja_list_full = []  # 전체 한자 리스트
+        self.hanja_list = []  # 현재 표시할 한자 리스트 (필터링됨)
         self.current_index = 0
         self.showing_hanja = True
         self.is_running = False
@@ -223,18 +274,21 @@ class HanjaMemorizer(QMainWindow):
         self.hanja_time = 2000
         self.meaning_time = 2000
         
+        # 모드: "all" = 전체, "unmemorized" = 미암기만
+        self.current_mode = "all"
+        
         self.init_ui()
         self.load_cache_dropdown()
         
     def init_ui(self):
-        self.setWindowTitle("한자 암기 프로그램 v2")
-        self.setGeometry(100, 100, 900, 700)
+        self.setWindowTitle("한자 암기 프로그램 v3")
+        self.setGeometry(100, 100, 900, 750)
         self.setStyleSheet("background-color: #1a1a2e;")
         
         main_widget = QWidget()
         self.setCentralWidget(main_widget)
         layout = QVBoxLayout(main_widget)
-        layout.setSpacing(15)
+        layout.setSpacing(12)
         layout.setContentsMargins(25, 25, 25, 25)
         
         # ===== 파일 로드 영역 =====
@@ -284,7 +338,6 @@ class HanjaMemorizer(QMainWindow):
                 selection-color: #1a1a2e;
             }
         """)
-        self.cache_combo.currentIndexChanged.connect(self.on_cache_selected)
         cache_layout.addWidget(self.cache_combo, 1)
         
         self.load_cache_btn = QPushButton("불러오기")
@@ -361,6 +414,81 @@ class HanjaMemorizer(QMainWindow):
         load_layout.addLayout(new_load_layout)
         
         layout.addWidget(load_frame)
+        
+        # ===== 모드 선택 영역 =====
+        mode_frame = QFrame()
+        mode_frame.setStyleSheet("""
+            QFrame {
+                background-color: #16213e;
+                border-radius: 10px;
+                padding: 8px;
+            }
+        """)
+        mode_layout = QHBoxLayout(mode_frame)
+        
+        mode_label = QLabel("📖 학습 모드:")
+        mode_label.setStyleSheet("color: white; font-size: 12px;")
+        mode_layout.addWidget(mode_label)
+        
+        self.mode_all_radio = QRadioButton("전체 한자")
+        self.mode_all_radio.setChecked(True)
+        self.mode_all_radio.setStyleSheet("""
+            QRadioButton {
+                color: white;
+                font-size: 12px;
+                padding: 5px 10px;
+            }
+            QRadioButton::indicator {
+                width: 16px;
+                height: 16px;
+            }
+            QRadioButton::indicator:checked {
+                background-color: #4ecca3;
+                border: 2px solid #4ecca3;
+                border-radius: 8px;
+            }
+            QRadioButton::indicator:unchecked {
+                background-color: #0f3460;
+                border: 2px solid #0f3460;
+                border-radius: 8px;
+            }
+        """)
+        self.mode_all_radio.toggled.connect(self.on_mode_changed)
+        mode_layout.addWidget(self.mode_all_radio)
+        
+        self.mode_unmemorized_radio = QRadioButton("미암기 한자만")
+        self.mode_unmemorized_radio.setStyleSheet("""
+            QRadioButton {
+                color: white;
+                font-size: 12px;
+                padding: 5px 10px;
+            }
+            QRadioButton::indicator {
+                width: 16px;
+                height: 16px;
+            }
+            QRadioButton::indicator:checked {
+                background-color: #e94560;
+                border: 2px solid #e94560;
+                border-radius: 8px;
+            }
+            QRadioButton::indicator:unchecked {
+                background-color: #0f3460;
+                border: 2px solid #0f3460;
+                border-radius: 8px;
+            }
+        """)
+        self.mode_unmemorized_radio.toggled.connect(self.on_mode_changed)
+        mode_layout.addWidget(self.mode_unmemorized_radio)
+        
+        mode_layout.addStretch()
+        
+        # 암기 통계 라벨
+        self.memorized_stats_label = QLabel("암기완료: 0개")
+        self.memorized_stats_label.setStyleSheet("color: #4ecca3; font-size: 12px; font-weight: bold;")
+        mode_layout.addWidget(self.memorized_stats_label)
+        
+        layout.addWidget(mode_frame)
         
         # ===== 컨트롤 영역 =====
         control_frame = QFrame()
@@ -527,14 +655,52 @@ class HanjaMemorizer(QMainWindow):
             }
         """)
         display_layout = QVBoxLayout(display_frame)
-        display_layout.setContentsMargins(40, 40, 40, 40)
+        display_layout.setContentsMargins(40, 20, 40, 30)
         
+        # 상단: 암기완료 체크박스
+        top_layout = QHBoxLayout()
+        top_layout.addStretch()
+        
+        self.memorized_checkbox = QCheckBox("✓ 암기 완료")
+        self.memorized_checkbox.setStyleSheet("""
+            QCheckBox {
+                color: #4ecca3;
+                font-size: 14px;
+                font-weight: bold;
+                padding: 8px 12px;
+                background-color: #0f3460;
+                border-radius: 8px;
+            }
+            QCheckBox::indicator {
+                width: 20px;
+                height: 20px;
+            }
+            QCheckBox::indicator:unchecked {
+                background-color: #1a1a2e;
+                border: 2px solid #4ecca3;
+                border-radius: 4px;
+            }
+            QCheckBox::indicator:checked {
+                background-color: #4ecca3;
+                border: 2px solid #4ecca3;
+                border-radius: 4px;
+            }
+            QCheckBox:hover {
+                background-color: #1a4a7a;
+            }
+        """)
+        self.memorized_checkbox.toggled.connect(self.on_memorized_toggled)
+        top_layout.addWidget(self.memorized_checkbox)
+        
+        display_layout.addLayout(top_layout)
+        
+        # 한자 표시
         self.hanja_label = QLabel("漢字")
         self.hanja_label.setAlignment(Qt.AlignCenter)
         self.hanja_label.setStyleSheet("""
             QLabel {
                 color: #ffffff;
-                font-size: 160px;
+                font-size: 150px;
                 font-weight: bold;
             }
         """)
@@ -613,6 +779,9 @@ class HanjaMemorizer(QMainWindow):
         nav_layout.addWidget(self.next_btn)
         
         layout.addLayout(nav_layout)
+        
+        # 암기 통계 업데이트
+        self.update_memorized_stats()
     
     def load_cache_dropdown(self):
         """캐시된 파일 목록을 드롭다운에 로드"""
@@ -628,10 +797,6 @@ class HanjaMemorizer(QMainWindow):
                 display_name = f"💻 {display_name}"
             self.cache_combo.addItem(display_name, file_info)
     
-    def on_cache_selected(self, index):
-        """캐시 드롭다운 선택 시"""
-        pass
-    
     def load_from_cache_selected(self):
         """선택된 캐시 파일 로드"""
         file_info = self.cache_combo.currentData()
@@ -641,8 +806,8 @@ class HanjaMemorizer(QMainWindow):
         
         data = load_from_cache(file_info['cache_file'])
         if data:
-            self.hanja_list = data
-            random.shuffle(self.hanja_list)
+            self.hanja_list_full = data
+            self.apply_mode_filter()
             self.on_data_loaded(file_info['name'])
         else:
             QMessageBox.critical(self, "오류", "캐시 파일을 찾을 수 없습니다.")
@@ -662,20 +827,19 @@ class HanjaMemorizer(QMainWindow):
                 data = self.parse_dataframe(df)
                 
                 if data:
-                    # 캐시에 저장
                     filename = os.path.basename(file_path)
                     name = os.path.splitext(filename)[0]
                     add_to_cache(name, "local", file_path, data)
                     
-                    self.hanja_list = data
-                    random.shuffle(self.hanja_list)
+                    self.hanja_list_full = data
+                    self.apply_mode_filter()
                     self.on_data_loaded(name)
                     self.load_cache_dropdown()
                     
                     QMessageBox.information(
                         self,
                         "로드 완료",
-                        f"{len(self.hanja_list)}개의 한자를 로드했습니다."
+                        f"{len(self.hanja_list_full)}개의 한자를 로드했습니다."
                     )
                     
             except Exception as e:
@@ -698,23 +862,21 @@ class HanjaMemorizer(QMainWindow):
                 return
             
             try:
-                # CSV로 다운로드
                 df = pd.read_csv(csv_url)
                 data = self.parse_dataframe(df)
                 
                 if data:
-                    # 캐시에 저장
                     add_to_cache(name, "google", url, data)
                     
-                    self.hanja_list = data
-                    random.shuffle(self.hanja_list)
+                    self.hanja_list_full = data
+                    self.apply_mode_filter()
                     self.on_data_loaded(name)
                     self.load_cache_dropdown()
                     
                     QMessageBox.information(
                         self,
                         "로드 완료",
-                        f"구글 시트에서 {len(self.hanja_list)}개의 한자를 로드했습니다."
+                        f"구글 시트에서 {len(self.hanja_list_full)}개의 한자를 로드했습니다."
                     )
                 else:
                     QMessageBox.warning(self, "알림", "데이터를 찾을 수 없습니다.")
@@ -748,6 +910,48 @@ class HanjaMemorizer(QMainWindow):
         
         return data
     
+    def on_mode_changed(self, checked):
+        """모드 변경 시"""
+        if self.mode_all_radio.isChecked():
+            self.current_mode = "all"
+        else:
+            self.current_mode = "unmemorized"
+        
+        if self.hanja_list_full:
+            self.apply_mode_filter()
+            self.update_display_after_filter()
+    
+    def apply_mode_filter(self):
+        """현재 모드에 따라 한자 리스트 필터링"""
+        if self.current_mode == "all":
+            self.hanja_list = self.hanja_list_full.copy()
+        else:
+            # 미암기 한자만 필터링
+            self.hanja_list = [
+                h for h in self.hanja_list_full 
+                if not is_memorized(h['hanja'])
+            ]
+        
+        random.shuffle(self.hanja_list)
+    
+    def update_display_after_filter(self):
+        """필터링 후 디스플레이 업데이트"""
+        if not self.hanja_list:
+            if self.current_mode == "unmemorized":
+                QMessageBox.information(self, "알림", "모든 한자를 암기했습니다! 🎉")
+            self.hanja_label.setText("완료!")
+            self.reading_label.setText("")
+            self.meaning_label.setText("")
+            self.start_btn.setEnabled(False)
+            return
+        
+        self.current_index = 0
+        self.count_label.setText(f"총 {len(self.hanja_list)}개 한자")
+        self.progress_bar.setMaximum(len(self.hanja_list))
+        self.update_progress()
+        self.show_current_hanja()
+        self.start_btn.setEnabled(True)
+    
     def on_data_loaded(self, name):
         """데이터 로드 완료 시 UI 업데이트"""
         self.file_label.setText(f"파일: {name}")
@@ -763,6 +967,58 @@ class HanjaMemorizer(QMainWindow):
         self.current_index = 0
         self.update_progress()
         self.show_current_hanja()
+        self.update_memorized_stats()
+    
+    def on_memorized_toggled(self, checked):
+        """암기완료 체크박스 토글 시"""
+        if not self.hanja_list:
+            return
+        
+        current = self.hanja_list[self.current_index]
+        hanja = current['hanja']
+        
+        if checked:
+            add_memorized(hanja)
+        else:
+            remove_memorized(hanja)
+        
+        self.update_memorized_stats()
+        
+        # 미암기 모드에서 체크하면 다음 한자로 이동
+        if checked and self.current_mode == "unmemorized":
+            # 현재 한자를 리스트에서 제거
+            self.hanja_list.pop(self.current_index)
+            
+            if not self.hanja_list:
+                QMessageBox.information(self, "축하합니다!", "모든 한자를 암기했습니다! 🎉")
+                self.hanja_label.setText("완료!")
+                self.reading_label.setText("")
+                self.meaning_label.setText("")
+                self.start_btn.setEnabled(False)
+                self.memorized_checkbox.setChecked(False)
+                return
+            
+            # 인덱스 조정
+            if self.current_index >= len(self.hanja_list):
+                self.current_index = 0
+            
+            self.count_label.setText(f"총 {len(self.hanja_list)}개 한자")
+            self.progress_bar.setMaximum(len(self.hanja_list))
+            self.update_progress()
+            self.show_current_hanja()
+    
+    def update_memorized_stats(self):
+        """암기 통계 업데이트"""
+        memorized_count = get_memorized_count()
+        total_count = len(self.hanja_list_full) if self.hanja_list_full else 0
+        
+        if total_count > 0:
+            percentage = (memorized_count / total_count) * 100
+            self.memorized_stats_label.setText(
+                f"암기완료: {memorized_count}/{total_count}개 ({percentage:.1f}%)"
+            )
+        else:
+            self.memorized_stats_label.setText(f"암기완료: {memorized_count}개")
     
     def shuffle_hanja(self):
         if self.hanja_list:
@@ -852,10 +1108,15 @@ class HanjaMemorizer(QMainWindow):
         self.reading_label.setText("")
         self.meaning_label.setText("")
         
+        # 암기완료 체크박스 상태 업데이트
+        self.memorized_checkbox.blockSignals(True)
+        self.memorized_checkbox.setChecked(is_memorized(current['hanja']))
+        self.memorized_checkbox.blockSignals(False)
+        
         self.hanja_label.setStyleSheet("""
             QLabel {
                 color: #ffffff;
-                font-size: 160px;
+                font-size: 150px;
                 font-weight: bold;
             }
         """)
@@ -871,14 +1132,15 @@ class HanjaMemorizer(QMainWindow):
         self.hanja_label.setStyleSheet("""
             QLabel {
                 color: #888888;
-                font-size: 160px;
+                font-size: 150px;
                 font-weight: bold;
             }
         """)
     
     def update_progress(self):
-        self.progress_label.setText(f"진행: {self.current_index + 1} / {len(self.hanja_list)}")
-        self.progress_bar.setValue(self.current_index + 1)
+        if self.hanja_list:
+            self.progress_label.setText(f"진행: {self.current_index + 1} / {len(self.hanja_list)}")
+            self.progress_bar.setValue(self.current_index + 1)
     
     def prev_hanja(self):
         if not self.hanja_list:
@@ -913,6 +1175,9 @@ class HanjaMemorizer(QMainWindow):
             self.next_hanja()
         elif event.key() == Qt.Key_R:
             self.shuffle_hanja()
+        elif event.key() == Qt.Key_M:
+            # M키로 암기완료 토글
+            self.memorized_checkbox.setChecked(not self.memorized_checkbox.isChecked())
 
 
 def main():

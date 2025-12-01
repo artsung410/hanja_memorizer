@@ -1,0 +1,6202 @@
+[
+  {
+    "hanja": "加",
+    "reading": "가",
+    "meaning": "더하다"
+  },
+  {
+    "hanja": "可",
+    "reading": "가",
+    "meaning": "옳다/가하다"
+  },
+  {
+    "hanja": "歌",
+    "reading": "가",
+    "meaning": "노래"
+  },
+  {
+    "hanja": "価",
+    "reading": "가",
+    "meaning": "값"
+  },
+  {
+    "hanja": "家",
+    "reading": "가",
+    "meaning": "집"
+  },
+  {
+    "hanja": "街",
+    "reading": "가",
+    "meaning": "거리"
+  },
+  {
+    "hanja": "段",
+    "reading": "가",
+    "meaning": "층계/단"
+  },
+  {
+    "hanja": "仮",
+    "reading": "가",
+    "meaning": "거짓/가짜"
+  },
+  {
+    "hanja": "各",
+    "reading": "각",
+    "meaning": "각각"
+  },
+  {
+    "hanja": "閣",
+    "reading": "각",
+    "meaning": "누각"
+  },
+  {
+    "hanja": "刻",
+    "reading": "각",
+    "meaning": "새기다"
+  },
+  {
+    "hanja": "殻",
+    "reading": "각",
+    "meaning": "껍데기"
+  },
+  {
+    "hanja": "角",
+    "reading": "각",
+    "meaning": "뿔/모서리"
+  },
+  {
+    "hanja": "覚",
+    "reading": "각",
+    "meaning": "깨닫다"
+  },
+  {
+    "hanja": "干",
+    "reading": "간",
+    "meaning": "방패/줄기"
+  },
+  {
+    "hanja": "刊",
+    "reading": "간",
+    "meaning": "새기다/간행하다"
+  },
+  {
+    "hanja": "間",
+    "reading": "간",
+    "meaning": "사이"
+  },
+  {
+    "hanja": "簡",
+    "reading": "간",
+    "meaning": "간략하다"
+  },
+  {
+    "hanja": "幹",
+    "reading": "간",
+    "meaning": "줄기"
+  },
+  {
+    "hanja": "看",
+    "reading": "간",
+    "meaning": "보다"
+  },
+  {
+    "hanja": "敢",
+    "reading": "감",
+    "meaning": "감히"
+  },
+  {
+    "hanja": "減",
+    "reading": "감",
+    "meaning": "덜다"
+  },
+  {
+    "hanja": "感",
+    "reading": "감",
+    "meaning": "느끼다"
+  },
+  {
+    "hanja": "監",
+    "reading": "감",
+    "meaning": "살피다"
+  },
+  {
+    "hanja": "講",
+    "reading": "강",
+    "meaning": "강의하다"
+  },
+  {
+    "hanja": "強",
+    "reading": "강",
+    "meaning": "강하다"
+  },
+  {
+    "hanja": "降",
+    "reading": "강",
+    "meaning": "내리다"
+  },
+  {
+    "hanja": "康",
+    "reading": "강",
+    "meaning": "편안하다"
+  },
+  {
+    "hanja": "岡",
+    "reading": "강",
+    "meaning": "산등성이"
+  },
+  {
+    "hanja": "鋼",
+    "reading": "강",
+    "meaning": "강철"
+  },
+  {
+    "hanja": "個",
+    "reading": "개",
+    "meaning": "낱/개"
+  },
+  {
+    "hanja": "介",
+    "reading": "개",
+    "meaning": "끼다/사이"
+  },
+  {
+    "hanja": "開",
+    "reading": "개",
+    "meaning": "열다"
+  },
+  {
+    "hanja": "改",
+    "reading": "개",
+    "meaning": "고치다"
+  },
+  {
+    "hanja": "皆",
+    "reading": "개",
+    "meaning": "다/모두"
+  },
+  {
+    "hanja": "客",
+    "reading": "객",
+    "meaning": "손님"
+  },
+  {
+    "hanja": "更",
+    "reading": "갱",
+    "meaning": "고치다/다시"
+  },
+  {
+    "hanja": "挙",
+    "reading": "거",
+    "meaning": "들다"
+  },
+  {
+    "hanja": "車",
+    "reading": "거",
+    "meaning": "수레"
+  },
+  {
+    "hanja": "去",
+    "reading": "거",
+    "meaning": "가다"
+  },
+  {
+    "hanja": "居",
+    "reading": "거",
+    "meaning": "살다"
+  },
+  {
+    "hanja": "件",
+    "reading": "건",
+    "meaning": "물건/사건"
+  },
+  {
+    "hanja": "干",
+    "reading": "건",
+    "meaning": "방패/줄기"
+  },
+  {
+    "hanja": "巾",
+    "reading": "건",
+    "meaning": "수건"
+  },
+  {
+    "hanja": "建",
+    "reading": "건",
+    "meaning": "세우다"
+  },
+  {
+    "hanja": "健",
+    "reading": "건",
+    "meaning": "건강하다"
+  },
+  {
+    "hanja": "検",
+    "reading": "검",
+    "meaning": "검사하다"
+  },
+  {
+    "hanja": "格",
+    "reading": "격",
+    "meaning": "격식/바로잡다"
+  },
+  {
+    "hanja": "激",
+    "reading": "격",
+    "meaning": "격렬하다"
+  },
+  {
+    "hanja": "犬",
+    "reading": "견",
+    "meaning": "개"
+  },
+  {
+    "hanja": "絹",
+    "reading": "견",
+    "meaning": "비단"
+  },
+  {
+    "hanja": "見",
+    "reading": "견",
+    "meaning": "보다"
+  },
+  {
+    "hanja": "結",
+    "reading": "결",
+    "meaning": "맺다"
+  },
+  {
+    "hanja": "決",
+    "reading": "결",
+    "meaning": "결정하다"
+  },
+  {
+    "hanja": "潔",
+    "reading": "결",
+    "meaning": "깨끗하다"
+  },
+  {
+    "hanja": "欠",
+    "reading": "결",
+    "meaning": "하품/모자라다"
+  },
+  {
+    "hanja": "競",
+    "reading": "경",
+    "meaning": "겨루다"
+  },
+  {
+    "hanja": "更",
+    "reading": "경",
+    "meaning": "고치다/다시"
+  },
+  {
+    "hanja": "耕",
+    "reading": "경",
+    "meaning": "밭갈다"
+  },
+  {
+    "hanja": "境",
+    "reading": "경",
+    "meaning": "지경/경계"
+  },
+  {
+    "hanja": "鏡",
+    "reading": "경",
+    "meaning": "거울"
+  },
+  {
+    "hanja": "京",
+    "reading": "경",
+    "meaning": "서울"
+  },
+  {
+    "hanja": "景",
+    "reading": "경",
+    "meaning": "경치"
+  },
+  {
+    "hanja": "経",
+    "reading": "경",
+    "meaning": "지나다/경서"
+  },
+  {
+    "hanja": "軽",
+    "reading": "경",
+    "meaning": "가볍다"
+  },
+  {
+    "hanja": "径",
+    "reading": "경",
+    "meaning": "지름길"
+  },
+  {
+    "hanja": "敬",
+    "reading": "경",
+    "meaning": "공경하다"
+  },
+  {
+    "hanja": "警",
+    "reading": "경",
+    "meaning": "경계하다"
+  },
+  {
+    "hanja": "界",
+    "reading": "계",
+    "meaning": "경계/세계"
+  },
+  {
+    "hanja": "季",
+    "reading": "계",
+    "meaning": "계절"
+  },
+  {
+    "hanja": "計",
+    "reading": "계",
+    "meaning": "세다/계획"
+  },
+  {
+    "hanja": "戒",
+    "reading": "계",
+    "meaning": "경계하다"
+  },
+  {
+    "hanja": "械",
+    "reading": "계",
+    "meaning": "기계/형틀"
+  },
+  {
+    "hanja": "継",
+    "reading": "계",
+    "meaning": "잇다"
+  },
+  {
+    "hanja": "系",
+    "reading": "계",
+    "meaning": "잇다/계통"
+  },
+  {
+    "hanja": "係",
+    "reading": "계",
+    "meaning": "맺다/관계"
+  },
+  {
+    "hanja": "契",
+    "reading": "계",
+    "meaning": "맺다/계약"
+  },
+  {
+    "hanja": "階",
+    "reading": "계",
+    "meaning": "섬돌/계단"
+  },
+  {
+    "hanja": "届",
+    "reading": "계",
+    "meaning": "이르다"
+  },
+  {
+    "hanja": "古",
+    "reading": "고",
+    "meaning": "옛"
+  },
+  {
+    "hanja": "故",
+    "reading": "고",
+    "meaning": "연고/까닭"
+  },
+  {
+    "hanja": "固",
+    "reading": "고",
+    "meaning": "굳다"
+  },
+  {
+    "hanja": "苦",
+    "reading": "고",
+    "meaning": "쓰다/괴롭다"
+  },
+  {
+    "hanja": "告",
+    "reading": "고",
+    "meaning": "고하다"
+  },
+  {
+    "hanja": "高",
+    "reading": "고",
+    "meaning": "높다"
+  },
+  {
+    "hanja": "考",
+    "reading": "고",
+    "meaning": "생각하다"
+  },
+  {
+    "hanja": "庫",
+    "reading": "고",
+    "meaning": "창고"
+  },
+  {
+    "hanja": "曲",
+    "reading": "곡",
+    "meaning": "굽다/곡조"
+  },
+  {
+    "hanja": "谷",
+    "reading": "곡",
+    "meaning": "골짜기"
+  },
+  {
+    "hanja": "告",
+    "reading": "곡",
+    "meaning": "고하다"
+  },
+  {
+    "hanja": "穀",
+    "reading": "곡",
+    "meaning": "곡식"
+  },
+  {
+    "hanja": "困",
+    "reading": "곤",
+    "meaning": "곤하다/괴롭다"
+  },
+  {
+    "hanja": "骨",
+    "reading": "골",
+    "meaning": "뼈"
+  },
+  {
+    "hanja": "公",
+    "reading": "공",
+    "meaning": "공평하다/공적"
+  },
+  {
+    "hanja": "共",
+    "reading": "공",
+    "meaning": "함께"
+  },
+  {
+    "hanja": "供",
+    "reading": "공",
+    "meaning": "바치다/이바지하다"
+  },
+  {
+    "hanja": "工",
+    "reading": "공",
+    "meaning": "장인/공"
+  },
+  {
+    "hanja": "功",
+    "reading": "공",
+    "meaning": "공/공로"
+  },
+  {
+    "hanja": "空",
+    "reading": "공",
+    "meaning": "비다"
+  },
+  {
+    "hanja": "果",
+    "reading": "과",
+    "meaning": "열매"
+  },
+  {
+    "hanja": "課",
+    "reading": "과",
+    "meaning": "매기다/과목"
+  },
+  {
+    "hanja": "科",
+    "reading": "과",
+    "meaning": "과목/법"
+  },
+  {
+    "hanja": "過",
+    "reading": "과",
+    "meaning": "지나다"
+  },
+  {
+    "hanja": "関",
+    "reading": "관",
+    "meaning": "관계하다/빗장"
+  },
+  {
+    "hanja": "観",
+    "reading": "관",
+    "meaning": "보다"
+  },
+  {
+    "hanja": "官",
+    "reading": "관",
+    "meaning": "벼슬"
+  },
+  {
+    "hanja": "館",
+    "reading": "관",
+    "meaning": "집/관"
+  },
+  {
+    "hanja": "管",
+    "reading": "관",
+    "meaning": "대롱/관리하다"
+  },
+  {
+    "hanja": "貫",
+    "reading": "관",
+    "meaning": "꿰다"
+  },
+  {
+    "hanja": "慣",
+    "reading": "관",
+    "meaning": "익숙하다"
+  },
+  {
+    "hanja": "光",
+    "reading": "광",
+    "meaning": "빛"
+  },
+  {
+    "hanja": "広",
+    "reading": "광",
+    "meaning": "넓다"
+  },
+  {
+    "hanja": "鉱",
+    "reading": "광",
+    "meaning": "광석/쇠"
+  },
+  {
+    "hanja": "喬",
+    "reading": "교",
+    "meaning": "높다"
+  },
+  {
+    "hanja": "橋",
+    "reading": "교",
+    "meaning": "다리"
+  },
+  {
+    "hanja": "教",
+    "reading": "교",
+    "meaning": "가르치다"
+  },
+  {
+    "hanja": "交",
+    "reading": "교",
+    "meaning": "사귀다"
+  },
+  {
+    "hanja": "校",
+    "reading": "교",
+    "meaning": "학교/비교하다"
+  },
+  {
+    "hanja": "久",
+    "reading": "구",
+    "meaning": "오래다"
+  },
+  {
+    "hanja": "口",
+    "reading": "구",
+    "meaning": "입"
+  },
+  {
+    "hanja": "区",
+    "reading": "구",
+    "meaning": "구역/나누다"
+  },
+  {
+    "hanja": "九",
+    "reading": "구",
+    "meaning": "아홉"
+  },
+  {
+    "hanja": "究",
+    "reading": "구",
+    "meaning": "궁구하다"
+  },
+  {
+    "hanja": "構",
+    "reading": "구",
+    "meaning": "얽다/구성하다"
+  },
+  {
+    "hanja": "丘",
+    "reading": "구",
+    "meaning": "언덕"
+  },
+  {
+    "hanja": "句",
+    "reading": "구",
+    "meaning": "글귀"
+  },
+  {
+    "hanja": "旧",
+    "reading": "구",
+    "meaning": "옛"
+  },
+  {
+    "hanja": "具",
+    "reading": "구",
+    "meaning": "갖추다"
+  },
+  {
+    "hanja": "求",
+    "reading": "구",
+    "meaning": "구하다"
+  },
+  {
+    "hanja": "球",
+    "reading": "구",
+    "meaning": "공"
+  },
+  {
+    "hanja": "救",
+    "reading": "구",
+    "meaning": "구하다/건지다"
+  },
+  {
+    "hanja": "口",
+    "reading": "국",
+    "meaning": "입"
+  },
+  {
+    "hanja": "国",
+    "reading": "국",
+    "meaning": "나라"
+  },
+  {
+    "hanja": "局",
+    "reading": "국",
+    "meaning": "판/국"
+  },
+  {
+    "hanja": "軍",
+    "reading": "군",
+    "meaning": "군사"
+  },
+  {
+    "hanja": "君",
+    "reading": "군",
+    "meaning": "임금"
+  },
+  {
+    "hanja": "郡",
+    "reading": "군",
+    "meaning": "고을"
+  },
+  {
+    "hanja": "群",
+    "reading": "군",
+    "meaning": "무리"
+  },
+  {
+    "hanja": "弓",
+    "reading": "궁",
+    "meaning": "활"
+  },
+  {
+    "hanja": "宮",
+    "reading": "궁",
+    "meaning": "집/궁궐"
+  },
+  {
+    "hanja": "権",
+    "reading": "권",
+    "meaning": "권세"
+  },
+  {
+    "hanja": "关",
+    "reading": "권",
+    "meaning": "빗장/관계"
+  },
+  {
+    "hanja": "券",
+    "reading": "권",
+    "meaning": "문서"
+  },
+  {
+    "hanja": "巻",
+    "reading": "권",
+    "meaning": "두루마리"
+  },
+  {
+    "hanja": "几",
+    "reading": "궤",
+    "meaning": "안석/몇"
+  },
+  {
+    "hanja": "机",
+    "reading": "궤",
+    "meaning": "책상"
+  },
+  {
+    "hanja": "帰",
+    "reading": "귀",
+    "meaning": "돌아가다"
+  },
+  {
+    "hanja": "貴",
+    "reading": "귀",
+    "meaning": "귀하다"
+  },
+  {
+    "hanja": "規",
+    "reading": "규",
+    "meaning": "법/그림쇠"
+  },
+  {
+    "hanja": "圭",
+    "reading": "규",
+    "meaning": "홀"
+  },
+  {
+    "hanja": "均",
+    "reading": "균",
+    "meaning": "고르다"
+  },
+  {
+    "hanja": "極",
+    "reading": "극",
+    "meaning": "다하다/극"
+  },
+  {
+    "hanja": "劇",
+    "reading": "극",
+    "meaning": "심하다/연극"
+  },
+  {
+    "hanja": "菫",
+    "reading": "근",
+    "meaning": "제비꽃"
+  },
+  {
+    "hanja": "勤",
+    "reading": "근",
+    "meaning": "부지런하다"
+  },
+  {
+    "hanja": "筋",
+    "reading": "근",
+    "meaning": "힘줄"
+  },
+  {
+    "hanja": "近",
+    "reading": "근",
+    "meaning": "가깝다"
+  },
+  {
+    "hanja": "根",
+    "reading": "근",
+    "meaning": "뿌리"
+  },
+  {
+    "hanja": "契",
+    "reading": "글",
+    "meaning": "맺다/계약"
+  },
+  {
+    "hanja": "今",
+    "reading": "금",
+    "meaning": "이제"
+  },
+  {
+    "hanja": "禁",
+    "reading": "금",
+    "meaning": "금하다"
+  },
+  {
+    "hanja": "金",
+    "reading": "금",
+    "meaning": "쇠/금"
+  },
+  {
+    "hanja": "給",
+    "reading": "급",
+    "meaning": "주다"
+  },
+  {
+    "hanja": "及",
+    "reading": "급",
+    "meaning": "미치다"
+  },
+  {
+    "hanja": "級",
+    "reading": "급",
+    "meaning": "등급"
+  },
+  {
+    "hanja": "急",
+    "reading": "급",
+    "meaning": "급하다"
+  },
+  {
+    "hanja": "器",
+    "reading": "기",
+    "meaning": "그릇"
+  },
+  {
+    "hanja": "技",
+    "reading": "기",
+    "meaning": "재주"
+  },
+  {
+    "hanja": "己",
+    "reading": "기",
+    "meaning": "자기"
+  },
+  {
+    "hanja": "紀",
+    "reading": "기",
+    "meaning": "벼리/기록"
+  },
+  {
+    "hanja": "記",
+    "reading": "기",
+    "meaning": "기록하다"
+  },
+  {
+    "hanja": "起",
+    "reading": "기",
+    "meaning": "일어나다"
+  },
+  {
+    "hanja": "奇",
+    "reading": "기",
+    "meaning": "기이하다"
+  },
+  {
+    "hanja": "埼",
+    "reading": "기",
+    "meaning": "곶"
+  },
+  {
+    "hanja": "崎",
+    "reading": "기",
+    "meaning": "험하다"
+  },
+  {
+    "hanja": "寄",
+    "reading": "기",
+    "meaning": "부치다"
+  },
+  {
+    "hanja": "旗",
+    "reading": "기",
+    "meaning": "깃발"
+  },
+  {
+    "hanja": "幾",
+    "reading": "기",
+    "meaning": "몇/기미"
+  },
+  {
+    "hanja": "機",
+    "reading": "기",
+    "meaning": "틀/기계"
+  },
+  {
+    "hanja": "其",
+    "reading": "기",
+    "meaning": "그"
+  },
+  {
+    "hanja": "期",
+    "reading": "기",
+    "meaning": "기약하다"
+  },
+  {
+    "hanja": "基",
+    "reading": "기",
+    "meaning": "터"
+  },
+  {
+    "hanja": "気",
+    "reading": "기",
+    "meaning": "기운"
+  },
+  {
+    "hanja": "汽",
+    "reading": "기",
+    "meaning": "김"
+  },
+  {
+    "hanja": "吉",
+    "reading": "길",
+    "meaning": "길하다"
+  },
+  {
+    "hanja": "那",
+    "reading": "나",
+    "meaning": "어찌/저"
+  },
+  {
+    "hanja": "奈",
+    "reading": "나",
+    "meaning": "어찌"
+  },
+  {
+    "hanja": "落",
+    "reading": "낙",
+    "meaning": "떨어지다"
+  },
+  {
+    "hanja": "楽",
+    "reading": "낙",
+    "meaning": "즐기다"
+  },
+  {
+    "hanja": "難",
+    "reading": "난",
+    "meaning": "어렵다"
+  },
+  {
+    "hanja": "乱",
+    "reading": "난",
+    "meaning": "어지럽다"
+  },
+  {
+    "hanja": "卵",
+    "reading": "난",
+    "meaning": "알"
+  },
+  {
+    "hanja": "暖",
+    "reading": "난",
+    "meaning": "따뜻하다"
+  },
+  {
+    "hanja": "男",
+    "reading": "남",
+    "meaning": "사내"
+  },
+  {
+    "hanja": "南",
+    "reading": "남",
+    "meaning": "남쪽"
+  },
+  {
+    "hanja": "覧",
+    "reading": "남",
+    "meaning": "보다"
+  },
+  {
+    "hanja": "納",
+    "reading": "납",
+    "meaning": "들이다"
+  },
+  {
+    "hanja": "朗",
+    "reading": "낭",
+    "meaning": "밝다"
+  },
+  {
+    "hanja": "来",
+    "reading": "내",
+    "meaning": "오다"
+  },
+  {
+    "hanja": "内",
+    "reading": "내",
+    "meaning": "안"
+  },
+  {
+    "hanja": "奈",
+    "reading": "내",
+    "meaning": "어찌"
+  },
+  {
+    "hanja": "冷",
+    "reading": "냉",
+    "meaning": "차다"
+  },
+  {
+    "hanja": "両",
+    "reading": "냥",
+    "meaning": "두/냥"
+  },
+  {
+    "hanja": "女",
+    "reading": "녀",
+    "meaning": "여자"
+  },
+  {
+    "hanja": "年",
+    "reading": "년",
+    "meaning": "해"
+  },
+  {
+    "hanja": "念",
+    "reading": "념",
+    "meaning": "생각"
+  },
+  {
+    "hanja": "路",
+    "reading": "노",
+    "meaning": "길"
+  },
+  {
+    "hanja": "奴",
+    "reading": "노",
+    "meaning": "종"
+  },
+  {
+    "hanja": "努",
+    "reading": "노",
+    "meaning": "힘쓰다"
+  },
+  {
+    "hanja": "老",
+    "reading": "노",
+    "meaning": "늙다"
+  },
+  {
+    "hanja": "労",
+    "reading": "노",
+    "meaning": "일하다"
+  },
+  {
+    "hanja": "鹿",
+    "reading": "녹",
+    "meaning": "사슴"
+  },
+  {
+    "hanja": "録",
+    "reading": "녹",
+    "meaning": "기록하다"
+  },
+  {
+    "hanja": "緑",
+    "reading": "녹",
+    "meaning": "푸르다"
+  },
+  {
+    "hanja": "論",
+    "reading": "논",
+    "meaning": "논하다"
+  },
+  {
+    "hanja": "農",
+    "reading": "농",
+    "meaning": "농사"
+  },
+  {
+    "hanja": "脳",
+    "reading": "뇌",
+    "meaning": "뇌"
+  },
+  {
+    "hanja": "能",
+    "reading": "능",
+    "meaning": "능하다"
+  },
+  {
+    "hanja": "多",
+    "reading": "다",
+    "meaning": "많다"
+  },
+  {
+    "hanja": "茶",
+    "reading": "다",
+    "meaning": "차"
+  },
+  {
+    "hanja": "単",
+    "reading": "단",
+    "meaning": "홑/단"
+  },
+  {
+    "hanja": "且",
+    "reading": "단",
+    "meaning": "또"
+  },
+  {
+    "hanja": "短",
+    "reading": "단",
+    "meaning": "짧다"
+  },
+  {
+    "hanja": "段",
+    "reading": "단",
+    "meaning": "층계/단"
+  },
+  {
+    "hanja": "断",
+    "reading": "단",
+    "meaning": "끊다"
+  },
+  {
+    "hanja": "団",
+    "reading": "단",
+    "meaning": "둥글다/단체"
+  },
+  {
+    "hanja": "達",
+    "reading": "달",
+    "meaning": "통달하다"
+  },
+  {
+    "hanja": "担",
+    "reading": "담",
+    "meaning": "메다"
+  },
+  {
+    "hanja": "談",
+    "reading": "담",
+    "meaning": "말하다"
+  },
+  {
+    "hanja": "答",
+    "reading": "답",
+    "meaning": "대답하다"
+  },
+  {
+    "hanja": "堂",
+    "reading": "당",
+    "meaning": "집/당"
+  },
+  {
+    "hanja": "党",
+    "reading": "당",
+    "meaning": "무리/당"
+  },
+  {
+    "hanja": "当",
+    "reading": "당",
+    "meaning": "마땅하다"
+  },
+  {
+    "hanja": "唐",
+    "reading": "당",
+    "meaning": "당나라"
+  },
+  {
+    "hanja": "糖",
+    "reading": "당",
+    "meaning": "엿/설탕"
+  },
+  {
+    "hanja": "大",
+    "reading": "대",
+    "meaning": "크다"
+  },
+  {
+    "hanja": "対",
+    "reading": "대",
+    "meaning": "대하다"
+  },
+  {
+    "hanja": "待",
+    "reading": "대",
+    "meaning": "기다리다"
+  },
+  {
+    "hanja": "代",
+    "reading": "대",
+    "meaning": "대신하다"
+  },
+  {
+    "hanja": "帯",
+    "reading": "대",
+    "meaning": "띠"
+  },
+  {
+    "hanja": "貸",
+    "reading": "대",
+    "meaning": "빌려주다"
+  },
+  {
+    "hanja": "台",
+    "reading": "대",
+    "meaning": "대"
+  },
+  {
+    "hanja": "隊",
+    "reading": "대",
+    "meaning": "무리"
+  },
+  {
+    "hanja": "宅",
+    "reading": "댁",
+    "meaning": "집"
+  },
+  {
+    "hanja": "徳",
+    "reading": "덕",
+    "meaning": "큰/덕"
+  },
+  {
+    "hanja": "憲",
+    "reading": "덕",
+    "meaning": "법"
+  },
+  {
+    "hanja": "度",
+    "reading": "도",
+    "meaning": "법도/헤아리다"
+  },
+  {
+    "hanja": "都",
+    "reading": "도",
+    "meaning": "도읍"
+  },
+  {
+    "hanja": "島",
+    "reading": "도",
+    "meaning": "섬"
+  },
+  {
+    "hanja": "徒",
+    "reading": "도",
+    "meaning": "무리/걷다"
+  },
+  {
+    "hanja": "刀",
+    "reading": "도",
+    "meaning": "칼"
+  },
+  {
+    "hanja": "道",
+    "reading": "도",
+    "meaning": "길/도"
+  },
+  {
+    "hanja": "導",
+    "reading": "도",
+    "meaning": "이끌다"
+  },
+  {
+    "hanja": "図",
+    "reading": "도",
+    "meaning": "그림/꾀하다"
+  },
+  {
+    "hanja": "毒",
+    "reading": "독",
+    "meaning": "독"
+  },
+  {
+    "hanja": "読",
+    "reading": "독",
+    "meaning": "읽다"
+  },
+  {
+    "hanja": "独",
+    "reading": "독",
+    "meaning": "홀로"
+  },
+  {
+    "hanja": "童",
+    "reading": "동",
+    "meaning": "아이"
+  },
+  {
+    "hanja": "働",
+    "reading": "동",
+    "meaning": "일하다"
+  },
+  {
+    "hanja": "同",
+    "reading": "동",
+    "meaning": "같다"
+  },
+  {
+    "hanja": "銅",
+    "reading": "동",
+    "meaning": "구리"
+  },
+  {
+    "hanja": "東",
+    "reading": "동",
+    "meaning": "동쪽"
+  },
+  {
+    "hanja": "冬",
+    "reading": "동",
+    "meaning": "겨울"
+  },
+  {
+    "hanja": "斗",
+    "reading": "두",
+    "meaning": "말/두"
+  },
+  {
+    "hanja": "豆",
+    "reading": "두",
+    "meaning": "콩"
+  },
+  {
+    "hanja": "頭",
+    "reading": "두",
+    "meaning": "머리"
+  },
+  {
+    "hanja": "読",
+    "reading": "두",
+    "meaning": "읽다"
+  },
+  {
+    "hanja": "得",
+    "reading": "득",
+    "meaning": "얻다"
+  },
+  {
+    "hanja": "等",
+    "reading": "등",
+    "meaning": "무리/등급"
+  },
+  {
+    "hanja": "登",
+    "reading": "등",
+    "meaning": "오르다"
+  },
+  {
+    "hanja": "灯",
+    "reading": "등",
+    "meaning": "등불"
+  },
+  {
+    "hanja": "落",
+    "reading": "락",
+    "meaning": "떨어지다"
+  },
+  {
+    "hanja": "楽",
+    "reading": "락",
+    "meaning": "즐기다"
+  },
+  {
+    "hanja": "難",
+    "reading": "란",
+    "meaning": "어렵다"
+  },
+  {
+    "hanja": "乱",
+    "reading": "란",
+    "meaning": "어지럽다"
+  },
+  {
+    "hanja": "卵",
+    "reading": "란",
+    "meaning": "알"
+  },
+  {
+    "hanja": "覧",
+    "reading": "람",
+    "meaning": "보다"
+  },
+  {
+    "hanja": "朗",
+    "reading": "랑",
+    "meaning": "밝다"
+  },
+  {
+    "hanja": "来",
+    "reading": "래",
+    "meaning": "오다"
+  },
+  {
+    "hanja": "冷",
+    "reading": "랭",
+    "meaning": "차다"
+  },
+  {
+    "hanja": "略",
+    "reading": "략",
+    "meaning": "간략하다/꾀"
+  },
+  {
+    "hanja": "量",
+    "reading": "량",
+    "meaning": "헤아리다"
+  },
+  {
+    "hanja": "両",
+    "reading": "량",
+    "meaning": "두/냥"
+  },
+  {
+    "hanja": "良",
+    "reading": "량",
+    "meaning": "좋다"
+  },
+  {
+    "hanja": "旅",
+    "reading": "려",
+    "meaning": "나그네"
+  },
+  {
+    "hanja": "歴",
+    "reading": "력",
+    "meaning": "지나다/역사"
+  },
+  {
+    "hanja": "力",
+    "reading": "력",
+    "meaning": "힘"
+  },
+  {
+    "hanja": "恋",
+    "reading": "련",
+    "meaning": "그리워하다"
+  },
+  {
+    "hanja": "練",
+    "reading": "련",
+    "meaning": "익히다"
+  },
+  {
+    "hanja": "連",
+    "reading": "련",
+    "meaning": "잇다"
+  },
+  {
+    "hanja": "列",
+    "reading": "렬",
+    "meaning": "벌이다"
+  },
+  {
+    "hanja": "令",
+    "reading": "령",
+    "meaning": "명령"
+  },
+  {
+    "hanja": "領",
+    "reading": "령",
+    "meaning": "거느리다"
+  },
+  {
+    "hanja": "礼",
+    "reading": "례",
+    "meaning": "예도"
+  },
+  {
+    "hanja": "例",
+    "reading": "례",
+    "meaning": "법식/예"
+  },
+  {
+    "hanja": "路",
+    "reading": "로",
+    "meaning": "길"
+  },
+  {
+    "hanja": "利",
+    "reading": "리",
+    "meaning": "이롭다"
+  },
+  {
+    "hanja": "梨",
+    "reading": "리",
+    "meaning": "배"
+  },
+  {
+    "hanja": "林",
+    "reading": "림",
+    "meaning": "수풀"
+  },
+  {
+    "hanja": "臨",
+    "reading": "림",
+    "meaning": "임하다"
+  },
+  {
+    "hanja": "立",
+    "reading": "립",
+    "meaning": "서다"
+  },
+  {
+    "hanja": "牢",
+    "reading": "로",
+    "meaning": "우리/감옥"
+  },
+  {
+    "hanja": "老",
+    "reading": "로",
+    "meaning": "늙다"
+  },
+  {
+    "hanja": "労",
+    "reading": "로",
+    "meaning": "일하다"
+  },
+  {
+    "hanja": "鹿",
+    "reading": "록",
+    "meaning": "사슴"
+  },
+  {
+    "hanja": "録",
+    "reading": "록",
+    "meaning": "기록하다"
+  },
+  {
+    "hanja": "緑",
+    "reading": "록",
+    "meaning": "푸르다"
+  },
+  {
+    "hanja": "論",
+    "reading": "론",
+    "meaning": "논하다"
+  },
+  {
+    "hanja": "料",
+    "reading": "료",
+    "meaning": ""
+  },
+  {
+    "hanja": "了",
+    "reading": "료",
+    "meaning": ""
+  },
+  {
+    "hanja": "留",
+    "reading": "류",
+    "meaning": "머무르다"
+  },
+  {
+    "hanja": "類",
+    "reading": "류",
+    "meaning": "무리"
+  },
+  {
+    "hanja": "流",
+    "reading": "류",
+    "meaning": "흐르다"
+  },
+  {
+    "hanja": "六",
+    "reading": "륙",
+    "meaning": "여섯"
+  },
+  {
+    "hanja": "陸",
+    "reading": "륙",
+    "meaning": "뭍"
+  },
+  {
+    "hanja": "輪",
+    "reading": "륜",
+    "meaning": "바퀴"
+  },
+  {
+    "hanja": "率",
+    "reading": "률",
+    "meaning": "비율/거느리다"
+  },
+  {
+    "hanja": "律",
+    "reading": "률",
+    "meaning": "법칙"
+  },
+  {
+    "hanja": "吏",
+    "reading": "리",
+    "meaning": "관리"
+  },
+  {
+    "hanja": "里",
+    "reading": "리",
+    "meaning": "마을"
+  },
+  {
+    "hanja": "理",
+    "reading": "리",
+    "meaning": "다스리다"
+  },
+  {
+    "hanja": "裏",
+    "reading": "리",
+    "meaning": "속"
+  },
+  {
+    "hanja": "馬",
+    "reading": "마",
+    "meaning": "말"
+  },
+  {
+    "hanja": "莫",
+    "reading": "막",
+    "meaning": "없다"
+  },
+  {
+    "hanja": "幕",
+    "reading": "막",
+    "meaning": "장막"
+  },
+  {
+    "hanja": "満",
+    "reading": "만",
+    "meaning": "가득차다"
+  },
+  {
+    "hanja": "万",
+    "reading": "만",
+    "meaning": "일만"
+  },
+  {
+    "hanja": "晩",
+    "reading": "만",
+    "meaning": "늦다"
+  },
+  {
+    "hanja": "末",
+    "reading": "말",
+    "meaning": "끝"
+  },
+  {
+    "hanja": "忘",
+    "reading": "망",
+    "meaning": "잊다"
+  },
+  {
+    "hanja": "望",
+    "reading": "망",
+    "meaning": "바라다"
+  },
+  {
+    "hanja": "四",
+    "reading": "망",
+    "meaning": "넷"
+  },
+  {
+    "hanja": "网",
+    "reading": "망",
+    "meaning": "그물"
+  },
+  {
+    "hanja": "妹",
+    "reading": "매",
+    "meaning": "누이"
+  },
+  {
+    "hanja": "每",
+    "reading": "매",
+    "meaning": "매양"
+  },
+  {
+    "hanja": "梅",
+    "reading": "매",
+    "meaning": "매화"
+  },
+  {
+    "hanja": "枚",
+    "reading": "매",
+    "meaning": "낱/장"
+  },
+  {
+    "hanja": "買",
+    "reading": "매",
+    "meaning": "사다"
+  },
+  {
+    "hanja": "売",
+    "reading": "매",
+    "meaning": "팔다"
+  },
+  {
+    "hanja": "脈",
+    "reading": "맥",
+    "meaning": "맥"
+  },
+  {
+    "hanja": "麦",
+    "reading": "맥",
+    "meaning": "보리"
+  },
+  {
+    "hanja": "盟",
+    "reading": "맹",
+    "meaning": "맹세"
+  },
+  {
+    "hanja": "綿",
+    "reading": "면",
+    "meaning": "솜"
+  },
+  {
+    "hanja": "眠",
+    "reading": "면",
+    "meaning": "잠자다"
+  },
+  {
+    "hanja": "面",
+    "reading": "면",
+    "meaning": "얼굴"
+  },
+  {
+    "hanja": "免",
+    "reading": "면",
+    "meaning": "면하다"
+  },
+  {
+    "hanja": "勉",
+    "reading": "면",
+    "meaning": "힘쓰다"
+  },
+  {
+    "hanja": "名",
+    "reading": "명",
+    "meaning": "이름"
+  },
+  {
+    "hanja": "明",
+    "reading": "명",
+    "meaning": "밝다"
+  },
+  {
+    "hanja": "鳴",
+    "reading": "명",
+    "meaning": "울다"
+  },
+  {
+    "hanja": "命",
+    "reading": "명",
+    "meaning": "목숨/명령"
+  },
+  {
+    "hanja": "模",
+    "reading": "모",
+    "meaning": "본뜨다"
+  },
+  {
+    "hanja": "暮",
+    "reading": "모",
+    "meaning": "저물다"
+  },
+  {
+    "hanja": "毛",
+    "reading": "모",
+    "meaning": "털"
+  },
+  {
+    "hanja": "母",
+    "reading": "모",
+    "meaning": "어머니"
+  },
+  {
+    "hanja": "務",
+    "reading": "모",
+    "meaning": "힘쓰다"
+  },
+  {
+    "hanja": "木",
+    "reading": "목",
+    "meaning": "나무"
+  },
+  {
+    "hanja": "目",
+    "reading": "목",
+    "meaning": "눈"
+  },
+  {
+    "hanja": "牧",
+    "reading": "목",
+    "meaning": "치다"
+  },
+  {
+    "hanja": "夢",
+    "reading": "몽",
+    "meaning": "꿈"
+  },
+  {
+    "hanja": "墓",
+    "reading": "묘",
+    "meaning": "무덤"
+  },
+  {
+    "hanja": "卯",
+    "reading": "묘",
+    "meaning": "토끼"
+  },
+  {
+    "hanja": "秒",
+    "reading": "초(묘)",
+    "meaning": "초"
+  },
+  {
+    "hanja": "武",
+    "reading": "무",
+    "meaning": "굳세다"
+  },
+  {
+    "hanja": "母",
+    "reading": "무",
+    "meaning": "어머니"
+  },
+  {
+    "hanja": "務",
+    "reading": "무",
+    "meaning": "힘쓰다"
+  },
+  {
+    "hanja": "貿",
+    "reading": "무",
+    "meaning": "바꾸다"
+  },
+  {
+    "hanja": "無",
+    "reading": "무",
+    "meaning": "없다"
+  },
+  {
+    "hanja": "門",
+    "reading": "문",
+    "meaning": "문"
+  },
+  {
+    "hanja": "問",
+    "reading": "문",
+    "meaning": "묻다"
+  },
+  {
+    "hanja": "聞",
+    "reading": "문",
+    "meaning": "듣다"
+  },
+  {
+    "hanja": "文",
+    "reading": "문",
+    "meaning": "글"
+  },
+  {
+    "hanja": "紋",
+    "reading": "문",
+    "meaning": "무늬"
+  },
+  {
+    "hanja": "物",
+    "reading": "물",
+    "meaning": "물건"
+  },
+  {
+    "hanja": "未",
+    "reading": "미",
+    "meaning": "아직"
+  },
+  {
+    "hanja": "味",
+    "reading": "미",
+    "meaning": "맛"
+  },
+  {
+    "hanja": "米",
+    "reading": "미",
+    "meaning": "쌀"
+  },
+  {
+    "hanja": "迷",
+    "reading": "미",
+    "meaning": "미혹하다"
+  },
+  {
+    "hanja": "美",
+    "reading": "미",
+    "meaning": "아름답다"
+  },
+  {
+    "hanja": "民",
+    "reading": "민",
+    "meaning": "백성"
+  },
+  {
+    "hanja": "密",
+    "reading": "밀",
+    "meaning": "빽빽하다"
+  },
+  {
+    "hanja": "博",
+    "reading": "박",
+    "meaning": "넓다"
+  },
+  {
+    "hanja": "半",
+    "reading": "반",
+    "meaning": "반"
+  },
+  {
+    "hanja": "弁",
+    "reading": "반",
+    "meaning": "꽃잎/말잘하다"
+  },
+  {
+    "hanja": "班",
+    "reading": "반",
+    "meaning": "나누다"
+  },
+  {
+    "hanja": "反",
+    "reading": "반",
+    "meaning": "돌이키다"
+  },
+  {
+    "hanja": "返",
+    "reading": "반",
+    "meaning": "돌아오다"
+  },
+  {
+    "hanja": "飯",
+    "reading": "반",
+    "meaning": "밥"
+  },
+  {
+    "hanja": "発",
+    "reading": "발",
+    "meaning": "쏘다/일어나다"
+  },
+  {
+    "hanja": "方",
+    "reading": "방",
+    "meaning": "모/방향"
+  },
+  {
+    "hanja": "訪",
+    "reading": "방",
+    "meaning": "찾다"
+  },
+  {
+    "hanja": "防",
+    "reading": "방",
+    "meaning": "막다"
+  },
+  {
+    "hanja": "放",
+    "reading": "방",
+    "meaning": "놓다"
+  },
+  {
+    "hanja": "倍",
+    "reading": "배",
+    "meaning": "갑절"
+  },
+  {
+    "hanja": "拝",
+    "reading": "배",
+    "meaning": "절하다"
+  },
+  {
+    "hanja": "北",
+    "reading": "배",
+    "meaning": "북쪽"
+  },
+  {
+    "hanja": "背",
+    "reading": "배",
+    "meaning": "등"
+  },
+  {
+    "hanja": "俳",
+    "reading": "배",
+    "meaning": "광대"
+  },
+  {
+    "hanja": "配",
+    "reading": "배",
+    "meaning": "나누다/짝"
+  },
+  {
+    "hanja": "白",
+    "reading": "백",
+    "meaning": "흰"
+  },
+  {
+    "hanja": "帛",
+    "reading": "백",
+    "meaning": "비단"
+  },
+  {
+    "hanja": "百",
+    "reading": "백",
+    "meaning": "백"
+  },
+  {
+    "hanja": "番",
+    "reading": "번",
+    "meaning": "차례"
+  },
+  {
+    "hanja": "犯",
+    "reading": "범",
+    "meaning": "범하다"
+  },
+  {
+    "hanja": "凡",
+    "reading": "범",
+    "meaning": "무릇"
+  },
+  {
+    "hanja": "法",
+    "reading": "법",
+    "meaning": "법"
+  },
+  {
+    "hanja": "便",
+    "reading": "변",
+    "meaning": "편하다"
+  },
+  {
+    "hanja": "弁",
+    "reading": "변",
+    "meaning": "꽃잎/말잘하다"
+  },
+  {
+    "hanja": "変",
+    "reading": "변",
+    "meaning": "변하다"
+  },
+  {
+    "hanja": "辺",
+    "reading": "변",
+    "meaning": "가/변두리"
+  },
+  {
+    "hanja": "別",
+    "reading": "별",
+    "meaning": "나누다"
+  },
+  {
+    "hanja": "並",
+    "reading": "병",
+    "meaning": "나란히"
+  },
+  {
+    "hanja": "兵",
+    "reading": "병",
+    "meaning": "군사"
+  },
+  {
+    "hanja": "病",
+    "reading": "병",
+    "meaning": "병"
+  },
+  {
+    "hanja": "保",
+    "reading": "보",
+    "meaning": "지키다"
+  },
+  {
+    "hanja": "報",
+    "reading": "보",
+    "meaning": "알리다"
+  },
+  {
+    "hanja": "歩",
+    "reading": "보",
+    "meaning": "걷다"
+  },
+  {
+    "hanja": "宝",
+    "reading": "보",
+    "meaning": "보배"
+  },
+  {
+    "hanja": "布",
+    "reading": "보",
+    "meaning": "베"
+  },
+  {
+    "hanja": "甫",
+    "reading": "보",
+    "meaning": "클/처음"
+  },
+  {
+    "hanja": "補",
+    "reading": "보",
+    "meaning": "기우다"
+  },
+  {
+    "hanja": "福",
+    "reading": "복",
+    "meaning": "복"
+  },
+  {
+    "hanja": "服",
+    "reading": "복",
+    "meaning": "옷/복종하다"
+  },
+  {
+    "hanja": "腹",
+    "reading": "복",
+    "meaning": "배"
+  },
+  {
+    "hanja": "複",
+    "reading": "복",
+    "meaning": "겹치다"
+  },
+  {
+    "hanja": "復",
+    "reading": "복",
+    "meaning": "돌아오다"
+  },
+  {
+    "hanja": "父",
+    "reading": "복",
+    "meaning": "아버지"
+  },
+  {
+    "hanja": "支",
+    "reading": "복",
+    "meaning": "지탱하다"
+  },
+  {
+    "hanja": "本",
+    "reading": "본",
+    "meaning": "근본"
+  },
+  {
+    "hanja": "奉",
+    "reading": "봉",
+    "meaning": "받들다"
+  },
+  {
+    "hanja": "棒",
+    "reading": "봉",
+    "meaning": "막대기"
+  },
+  {
+    "hanja": "夫",
+    "reading": "부",
+    "meaning": "지아비"
+  },
+  {
+    "hanja": "副",
+    "reading": "부",
+    "meaning": "버금"
+  },
+  {
+    "hanja": "富",
+    "reading": "부",
+    "meaning": "부유하다"
+  },
+  {
+    "hanja": "部",
+    "reading": "부",
+    "meaning": "떼/부분"
+  },
+  {
+    "hanja": "付",
+    "reading": "부",
+    "meaning": "주다"
+  },
+  {
+    "hanja": "府",
+    "reading": "부",
+    "meaning": "관청"
+  },
+  {
+    "hanja": "不",
+    "reading": "부",
+    "meaning": "아니"
+  },
+  {
+    "hanja": "否",
+    "reading": "부",
+    "meaning": "아니다"
+  },
+  {
+    "hanja": "阜",
+    "reading": "부",
+    "meaning": "언덕"
+  },
+  {
+    "hanja": "復",
+    "reading": "부",
+    "meaning": "돌아오다"
+  },
+  {
+    "hanja": "字",
+    "reading": "부",
+    "meaning": "글자"
+  },
+  {
+    "hanja": "婦",
+    "reading": "부",
+    "meaning": "며느리/여자"
+  },
+  {
+    "hanja": "専",
+    "reading": "부",
+    "meaning": "오로지"
+  },
+  {
+    "hanja": "負",
+    "reading": "부",
+    "meaning": "지다"
+  },
+  {
+    "hanja": "父",
+    "reading": "부",
+    "meaning": "아버지"
+  },
+  {
+    "hanja": "北",
+    "reading": "북",
+    "meaning": "북쪽"
+  },
+  {
+    "hanja": "粉",
+    "reading": "분",
+    "meaning": "가루"
+  },
+  {
+    "hanja": "分",
+    "reading": "분",
+    "meaning": "나누다"
+  },
+  {
+    "hanja": "奮",
+    "reading": "분",
+    "meaning": "떨치다"
+  },
+  {
+    "hanja": "弗",
+    "reading": "불",
+    "meaning": "아니/달러"
+  },
+  {
+    "hanja": "仏",
+    "reading": "불",
+    "meaning": "부처"
+  },
+  {
+    "hanja": "不",
+    "reading": "불",
+    "meaning": "아니"
+  },
+  {
+    "hanja": "肥",
+    "reading": "비",
+    "meaning": "살찌다"
+  },
+  {
+    "hanja": "費",
+    "reading": "비",
+    "meaning": "쓰다"
+  },
+  {
+    "hanja": "秘",
+    "reading": "비",
+    "meaning": "숨기다"
+  },
+  {
+    "hanja": "否",
+    "reading": "비",
+    "meaning": "아니다"
+  },
+  {
+    "hanja": "鼻",
+    "reading": "비",
+    "meaning": "코"
+  },
+  {
+    "hanja": "備",
+    "reading": "비",
+    "meaning": "갖추다"
+  },
+  {
+    "hanja": "比",
+    "reading": "비",
+    "meaning": "견주다"
+  },
+  {
+    "hanja": "批",
+    "reading": "비",
+    "meaning": "치다"
+  },
+  {
+    "hanja": "非",
+    "reading": "비",
+    "meaning": "아니다"
+  },
+  {
+    "hanja": "悲",
+    "reading": "비",
+    "meaning": "슬프다"
+  },
+  {
+    "hanja": "飛",
+    "reading": "비",
+    "meaning": "날다"
+  },
+  {
+    "hanja": "貧",
+    "reading": "빈",
+    "meaning": "가난하다"
+  },
+  {
+    "hanja": "仕",
+    "reading": "사",
+    "meaning": "섬기다"
+  },
+  {
+    "hanja": "史",
+    "reading": "사",
+    "meaning": "역사"
+  },
+  {
+    "hanja": "使",
+    "reading": "사",
+    "meaning": "부리다"
+  },
+  {
+    "hanja": "思",
+    "reading": "사",
+    "meaning": "생각하다"
+  },
+  {
+    "hanja": "私",
+    "reading": "사",
+    "meaning": "사사롭다"
+  },
+  {
+    "hanja": "四",
+    "reading": "사",
+    "meaning": "넷"
+  },
+  {
+    "hanja": "土",
+    "reading": "사",
+    "meaning": "흙"
+  },
+  {
+    "hanja": "舎",
+    "reading": "사",
+    "meaning": "집"
+  },
+  {
+    "hanja": "捨",
+    "reading": "사",
+    "meaning": "버리다"
+  },
+  {
+    "hanja": "射",
+    "reading": "사",
+    "meaning": "쏘다"
+  },
+  {
+    "hanja": "謝",
+    "reading": "사",
+    "meaning": "사례하다"
+  },
+  {
+    "hanja": "寺",
+    "reading": "사",
+    "meaning": "절"
+  },
+  {
+    "hanja": "司",
+    "reading": "사",
+    "meaning": "맡다"
+  },
+  {
+    "hanja": "詞",
+    "reading": "사",
+    "meaning": "말"
+  },
+  {
+    "hanja": "飼",
+    "reading": "사",
+    "meaning": "기르다"
+  },
+  {
+    "hanja": "辞",
+    "reading": "사",
+    "meaning": "말씀"
+  },
+  {
+    "hanja": "砂",
+    "reading": "사",
+    "meaning": "모래"
+  },
+  {
+    "hanja": "社",
+    "reading": "사",
+    "meaning": "모임"
+  },
+  {
+    "hanja": "査",
+    "reading": "사",
+    "meaning": "살피다"
+  },
+  {
+    "hanja": "師",
+    "reading": "사",
+    "meaning": "스승"
+  },
+  {
+    "hanja": "事",
+    "reading": "사",
+    "meaning": "일"
+  },
+  {
+    "hanja": "写",
+    "reading": "사",
+    "meaning": "베끼다"
+  },
+  {
+    "hanja": "似",
+    "reading": "사",
+    "meaning": "닮다"
+  },
+  {
+    "hanja": "死",
+    "reading": "사",
+    "meaning": "죽다"
+  },
+  {
+    "hanja": "数",
+    "reading": "삭",
+    "meaning": "셈/수"
+  },
+  {
+    "hanja": "山",
+    "reading": "산",
+    "meaning": "산"
+  },
+  {
+    "hanja": "産",
+    "reading": "산",
+    "meaning": "낳다"
+  },
+  {
+    "hanja": "算",
+    "reading": "산",
+    "meaning": "셈하다"
+  },
+  {
+    "hanja": "酸",
+    "reading": "산",
+    "meaning": "시다"
+  },
+  {
+    "hanja": "散",
+    "reading": "산",
+    "meaning": "흩어지다"
+  },
+  {
+    "hanja": "殺",
+    "reading": "살",
+    "meaning": "죽이다"
+  },
+  {
+    "hanja": "森",
+    "reading": "삼",
+    "meaning": "수풀"
+  },
+  {
+    "hanja": "三",
+    "reading": "삼",
+    "meaning": "셋"
+  },
+  {
+    "hanja": "参",
+    "reading": "삼",
+    "meaning": "참여하다"
+  },
+  {
+    "hanja": "相",
+    "reading": "상",
+    "meaning": "서로"
+  },
+  {
+    "hanja": "箱",
+    "reading": "상",
+    "meaning": "상자"
+  },
+  {
+    "hanja": "想",
+    "reading": "상",
+    "meaning": "생각하다"
+  },
+  {
+    "hanja": "上",
+    "reading": "상",
+    "meaning": "위"
+  },
+  {
+    "hanja": "尚",
+    "reading": "상",
+    "meaning": "오히려"
+  },
+  {
+    "hanja": "常",
+    "reading": "상",
+    "meaning": "항상"
+  },
+  {
+    "hanja": "賞",
+    "reading": "상",
+    "meaning": "상주다"
+  },
+  {
+    "hanja": "商",
+    "reading": "상",
+    "meaning": "장사"
+  },
+  {
+    "hanja": "桑",
+    "reading": "상",
+    "meaning": "뽕나무"
+  },
+  {
+    "hanja": "傷",
+    "reading": "상",
+    "meaning": "다치다"
+  },
+  {
+    "hanja": "象",
+    "reading": "상",
+    "meaning": "코끼리/모양"
+  },
+  {
+    "hanja": "像",
+    "reading": "상",
+    "meaning": "형상"
+  },
+  {
+    "hanja": "状",
+    "reading": "상",
+    "meaning": "형상"
+  },
+  {
+    "hanja": "色",
+    "reading": "색",
+    "meaning": "빛"
+  },
+  {
+    "hanja": "生",
+    "reading": "생",
+    "meaning": "나다"
+  },
+  {
+    "hanja": "省",
+    "reading": "생",
+    "meaning": "살피다/덜다"
+  },
+  {
+    "hanja": "庶",
+    "reading": "서",
+    "meaning": "여러"
+  },
+  {
+    "hanja": "序",
+    "reading": "서",
+    "meaning": "차례"
+  },
+  {
+    "hanja": "暑",
+    "reading": "서",
+    "meaning": "더위"
+  },
+  {
+    "hanja": "書",
+    "reading": "서",
+    "meaning": "글"
+  },
+  {
+    "hanja": "署",
+    "reading": "서",
+    "meaning": "관청"
+  },
+  {
+    "hanja": "西",
+    "reading": "서",
+    "meaning": "서쪽"
+  },
+  {
+    "hanja": "夕",
+    "reading": "석",
+    "meaning": "저녁"
+  },
+  {
+    "hanja": "昔",
+    "reading": "석",
+    "meaning": "옛"
+  },
+  {
+    "hanja": "席",
+    "reading": "석",
+    "meaning": "자리"
+  },
+  {
+    "hanja": "石",
+    "reading": "석",
+    "meaning": "돌"
+  },
+  {
+    "hanja": "渇",
+    "reading": "석",
+    "meaning": "목마르다"
+  },
+  {
+    "hanja": "線",
+    "reading": "선",
+    "meaning": "줄"
+  },
+  {
+    "hanja": "先",
+    "reading": "선",
+    "meaning": "먼저"
+  },
+  {
+    "hanja": "選",
+    "reading": "선",
+    "meaning": "가리다"
+  },
+  {
+    "hanja": "宣",
+    "reading": "선",
+    "meaning": "베풀다"
+  },
+  {
+    "hanja": "船",
+    "reading": "선",
+    "meaning": "배"
+  },
+  {
+    "hanja": "善",
+    "reading": "선",
+    "meaning": "착하다"
+  },
+  {
+    "hanja": "説",
+    "reading": "설",
+    "meaning": "말씀"
+  },
+  {
+    "hanja": "設",
+    "reading": "설",
+    "meaning": "베풀다"
+  },
+  {
+    "hanja": "雪",
+    "reading": "설",
+    "meaning": "눈"
+  },
+  {
+    "hanja": "性",
+    "reading": "성",
+    "meaning": "성품"
+  },
+  {
+    "hanja": "星",
+    "reading": "성",
+    "meaning": "별"
+  },
+  {
+    "hanja": "聖",
+    "reading": "성",
+    "meaning": "거룩하다"
+  },
+  {
+    "hanja": "成",
+    "reading": "성",
+    "meaning": "이루다"
+  },
+  {
+    "hanja": "城",
+    "reading": "성",
+    "meaning": "성"
+  },
+  {
+    "hanja": "誠",
+    "reading": "성",
+    "meaning": "정성"
+  },
+  {
+    "hanja": "盛",
+    "reading": "성",
+    "meaning": "성하다"
+  },
+  {
+    "hanja": "省",
+    "reading": "성",
+    "meaning": "살피다/덜다"
+  },
+  {
+    "hanja": "声",
+    "reading": "성",
+    "meaning": "소리"
+  },
+  {
+    "hanja": "説",
+    "reading": "세",
+    "meaning": "말씀"
+  },
+  {
+    "hanja": "税",
+    "reading": "세",
+    "meaning": "세금"
+  },
+  {
+    "hanja": "細",
+    "reading": "세",
+    "meaning": "가늘다"
+  },
+  {
+    "hanja": "洗",
+    "reading": "세",
+    "meaning": "씻다"
+  },
+  {
+    "hanja": "世",
+    "reading": "세",
+    "meaning": "세상"
+  },
+  {
+    "hanja": "勢",
+    "reading": "세",
+    "meaning": "형세"
+  },
+  {
+    "hanja": "巣",
+    "reading": "소",
+    "meaning": "집/둥지"
+  },
+  {
+    "hanja": "焼",
+    "reading": "소",
+    "meaning": "태우다"
+  },
+  {
+    "hanja": "笑",
+    "reading": "소",
+    "meaning": "웃다"
+  },
+  {
+    "hanja": "素",
+    "reading": "소",
+    "meaning": "본디"
+  },
+  {
+    "hanja": "召",
+    "reading": "소",
+    "meaning": "부르다"
+  },
+  {
+    "hanja": "昭",
+    "reading": "소",
+    "meaning": "밝다"
+  },
+  {
+    "hanja": "少",
+    "reading": "소",
+    "meaning": "적다"
+  },
+  {
+    "hanja": "肖",
+    "reading": "소",
+    "meaning": "닮다"
+  },
+  {
+    "hanja": "消",
+    "reading": "소",
+    "meaning": "사라지다"
+  },
+  {
+    "hanja": "所",
+    "reading": "소",
+    "meaning": "바/곳"
+  },
+  {
+    "hanja": "束",
+    "reading": "속",
+    "meaning": "묶다"
+  },
+  {
+    "hanja": "速",
+    "reading": "속",
+    "meaning": "빠르다"
+  },
+  {
+    "hanja": "続",
+    "reading": "속",
+    "meaning": "잇다"
+  },
+  {
+    "hanja": "属",
+    "reading": "속",
+    "meaning": "붙다/속하다"
+  },
+  {
+    "hanja": "孫",
+    "reading": "손",
+    "meaning": "손자"
+  },
+  {
+    "hanja": "損",
+    "reading": "손",
+    "meaning": "덜다/해치다"
+  },
+  {
+    "hanja": "率",
+    "reading": "솔",
+    "meaning": "비율/거느리다"
+  },
+  {
+    "hanja": "松",
+    "reading": "송",
+    "meaning": "소나무"
+  },
+  {
+    "hanja": "送",
+    "reading": "송",
+    "meaning": "보내다"
+  },
+  {
+    "hanja": "殺",
+    "reading": "쇄",
+    "meaning": "죽이다"
+  },
+  {
+    "hanja": "刷",
+    "reading": "쇄",
+    "meaning": "인쇄하다"
+  },
+  {
+    "hanja": "又",
+    "reading": "쇠",
+    "meaning": "또"
+  },
+  {
+    "hanja": "水",
+    "reading": "수",
+    "meaning": "물"
+  },
+  {
+    "hanja": "樹",
+    "reading": "수",
+    "meaning": "나무"
+  },
+  {
+    "hanja": "宿",
+    "reading": "수",
+    "meaning": "잘 곳/별자리"
+  },
+  {
+    "hanja": "守",
+    "reading": "수",
+    "meaning": "지키다"
+  },
+  {
+    "hanja": "受",
+    "reading": "수",
+    "meaning": "받다"
+  },
+  {
+    "hanja": "首",
+    "reading": "수",
+    "meaning": "머리"
+  },
+  {
+    "hanja": "授",
+    "reading": "수",
+    "meaning": "주다"
+  },
+  {
+    "hanja": "収",
+    "reading": "수",
+    "meaning": "거두다"
+  },
+  {
+    "hanja": "修",
+    "reading": "수",
+    "meaning": "닦다"
+  },
+  {
+    "hanja": "数",
+    "reading": "수",
+    "meaning": "셈/수"
+  },
+  {
+    "hanja": "輸",
+    "reading": "수",
+    "meaning": "나르다"
+  },
+  {
+    "hanja": "宿",
+    "reading": "숙",
+    "meaning": "잘 곳/별자리"
+  },
+  {
+    "hanja": "執",
+    "reading": "숙",
+    "meaning": "잡다"
+  },
+  {
+    "hanja": "熟",
+    "reading": "숙",
+    "meaning": "익다"
+  },
+  {
+    "hanja": "純",
+    "reading": "순",
+    "meaning": "순수하다"
+  },
+  {
+    "hanja": "順",
+    "reading": "순",
+    "meaning": "순하다"
+  },
+  {
+    "hanja": "術",
+    "reading": "술",
+    "meaning": "재주"
+  },
+  {
+    "hanja": "述",
+    "reading": "술",
+    "meaning": "말하다"
+  },
+  {
+    "hanja": "拾",
+    "reading": "습",
+    "meaning": "줍다"
+  },
+  {
+    "hanja": "習",
+    "reading": "습",
+    "meaning": "익히다"
+  },
+  {
+    "hanja": "承",
+    "reading": "승",
+    "meaning": "받들다"
+  },
+  {
+    "hanja": "丞",
+    "reading": "승",
+    "meaning": "돕다"
+  },
+  {
+    "hanja": "勝",
+    "reading": "승",
+    "meaning": "이기다"
+  },
+  {
+    "hanja": "繩",
+    "reading": "승",
+    "meaning": "줄/새끼"
+  },
+  {
+    "hanja": "乗",
+    "reading": "승",
+    "meaning": "타다"
+  },
+  {
+    "hanja": "是",
+    "reading": "시",
+    "meaning": "이/옳다"
+  },
+  {
+    "hanja": "寺",
+    "reading": "시",
+    "meaning": "절"
+  },
+  {
+    "hanja": "詩",
+    "reading": "시",
+    "meaning": "시"
+  },
+  {
+    "hanja": "時",
+    "reading": "시",
+    "meaning": "때"
+  },
+  {
+    "hanja": "市",
+    "reading": "시",
+    "meaning": "저자"
+  },
+  {
+    "hanja": "試",
+    "reading": "시",
+    "meaning": "시험하다"
+  },
+  {
+    "hanja": "示",
+    "reading": "시",
+    "meaning": "보이다"
+  },
+  {
+    "hanja": "視",
+    "reading": "시",
+    "meaning": "보다"
+  },
+  {
+    "hanja": "始",
+    "reading": "시",
+    "meaning": "시작하다"
+  },
+  {
+    "hanja": "亥",
+    "reading": "시",
+    "meaning": "돼지"
+  },
+  {
+    "hanja": "戸",
+    "reading": "시",
+    "meaning": "집/문"
+  },
+  {
+    "hanja": "式",
+    "reading": "식",
+    "meaning": "법/식"
+  },
+  {
+    "hanja": "植",
+    "reading": "식",
+    "meaning": "심다"
+  },
+  {
+    "hanja": "識",
+    "reading": "식",
+    "meaning": "알다"
+  },
+  {
+    "hanja": "食",
+    "reading": "식",
+    "meaning": "먹다"
+  },
+  {
+    "hanja": "息",
+    "reading": "식",
+    "meaning": "숨쉬다"
+  },
+  {
+    "hanja": "伸",
+    "reading": "신",
+    "meaning": "펴다"
+  },
+  {
+    "hanja": "神",
+    "reading": "신",
+    "meaning": "귀신/신"
+  },
+  {
+    "hanja": "辰",
+    "reading": "신",
+    "meaning": "별/때"
+  },
+  {
+    "hanja": "新",
+    "reading": "신",
+    "meaning": "새롭다"
+  },
+  {
+    "hanja": "身",
+    "reading": "신",
+    "meaning": "몸"
+  },
+  {
+    "hanja": "信",
+    "reading": "신",
+    "meaning": "믿다"
+  },
+  {
+    "hanja": "臣",
+    "reading": "신",
+    "meaning": "신하"
+  },
+  {
+    "hanja": "失",
+    "reading": "실",
+    "meaning": "잃다"
+  },
+  {
+    "hanja": "実",
+    "reading": "실",
+    "meaning": "열매/참"
+  },
+  {
+    "hanja": "室",
+    "reading": "실",
+    "meaning": "방"
+  },
+  {
+    "hanja": "心",
+    "reading": "심",
+    "meaning": "마음"
+  },
+  {
+    "hanja": "深",
+    "reading": "심",
+    "meaning": "깊다"
+  },
+  {
+    "hanja": "拾",
+    "reading": "심",
+    "meaning": "줍다"
+  },
+  {
+    "hanja": "十",
+    "reading": "십",
+    "meaning": "열"
+  },
+  {
+    "hanja": "児",
+    "reading": "아",
+    "meaning": "아이"
+  },
+  {
+    "hanja": "亜",
+    "reading": "아",
+    "meaning": "버금"
+  },
+  {
+    "hanja": "我",
+    "reading": "아",
+    "meaning": "나"
+  },
+  {
+    "hanja": "牙",
+    "reading": "아",
+    "meaning": "어금니"
+  },
+  {
+    "hanja": "芽",
+    "reading": "아",
+    "meaning": "싹"
+  },
+  {
+    "hanja": "岳",
+    "reading": "악",
+    "meaning": "큰산"
+  },
+  {
+    "hanja": "楽",
+    "reading": "악",
+    "meaning": "즐기다"
+  },
+  {
+    "hanja": "悪",
+    "reading": "악",
+    "meaning": "악하다"
+  },
+  {
+    "hanja": "岸",
+    "reading": "안",
+    "meaning": "언덕"
+  },
+  {
+    "hanja": "雁",
+    "reading": "안",
+    "meaning": "기러기"
+  },
+  {
+    "hanja": "眼",
+    "reading": "안",
+    "meaning": "눈"
+  },
+  {
+    "hanja": "顔",
+    "reading": "안",
+    "meaning": "얼굴"
+  },
+  {
+    "hanja": "安",
+    "reading": "안",
+    "meaning": "편안하다"
+  },
+  {
+    "hanja": "案",
+    "reading": "안",
+    "meaning": "책상/생각"
+  },
+  {
+    "hanja": "暗",
+    "reading": "암",
+    "meaning": "어둡다"
+  },
+  {
+    "hanja": "岩",
+    "reading": "암",
+    "meaning": "바위"
+  },
+  {
+    "hanja": "圧",
+    "reading": "압",
+    "meaning": "누르다"
+  },
+  {
+    "hanja": "央",
+    "reading": "앙",
+    "meaning": "가운데"
+  },
+  {
+    "hanja": "愛",
+    "reading": "애",
+    "meaning": "사랑"
+  },
+  {
+    "hanja": "厄",
+    "reading": "액",
+    "meaning": "재앙"
+  },
+  {
+    "hanja": "液",
+    "reading": "액",
+    "meaning": "진"
+  },
+  {
+    "hanja": "額",
+    "reading": "액",
+    "meaning": "이마/액수"
+  },
+  {
+    "hanja": "桜",
+    "reading": "앵",
+    "meaning": "벚나무"
+  },
+  {
+    "hanja": "若",
+    "reading": "야",
+    "meaning": "같다/젊다"
+  },
+  {
+    "hanja": "野",
+    "reading": "야",
+    "meaning": "들"
+  },
+  {
+    "hanja": "也",
+    "reading": "야",
+    "meaning": "어조사"
+  },
+  {
+    "hanja": "夜",
+    "reading": "야",
+    "meaning": "밤"
+  },
+  {
+    "hanja": "若",
+    "reading": "약",
+    "meaning": "같다/젊다"
+  },
+  {
+    "hanja": "略",
+    "reading": "약",
+    "meaning": "간략하다"
+  },
+  {
+    "hanja": "弱",
+    "reading": "약",
+    "meaning": "약하다"
+  },
+  {
+    "hanja": "薬",
+    "reading": "약",
+    "meaning": "약"
+  },
+  {
+    "hanja": "約",
+    "reading": "약",
+    "meaning": "맺다/약속"
+  },
+  {
+    "hanja": "量",
+    "reading": "양",
+    "meaning": "헤아리다"
+  },
+  {
+    "hanja": "両",
+    "reading": "양",
+    "meaning": "두/냥"
+  },
+  {
+    "hanja": "良",
+    "reading": "양",
+    "meaning": "좋다"
+  },
+  {
+    "hanja": "養",
+    "reading": "양",
+    "meaning": "기르다"
+  },
+  {
+    "hanja": "易",
+    "reading": "양",
+    "meaning": "바꾸다/쉽다"
+  },
+  {
+    "hanja": "陽",
+    "reading": "양",
+    "meaning": "볕"
+  },
+  {
+    "hanja": "洋",
+    "reading": "양",
+    "meaning": "바다"
+  },
+  {
+    "hanja": "様",
+    "reading": "양",
+    "meaning": "모양"
+  },
+  {
+    "hanja": "語",
+    "reading": "어",
+    "meaning": "말씀"
+  },
+  {
+    "hanja": "魚",
+    "reading": "어",
+    "meaning": "물고기"
+  },
+  {
+    "hanja": "漁",
+    "reading": "어",
+    "meaning": "고기잡다"
+  },
+  {
+    "hanja": "億",
+    "reading": "억",
+    "meaning": "억"
+  },
+  {
+    "hanja": "言",
+    "reading": "언",
+    "meaning": "말씀"
+  },
+  {
+    "hanja": "厳",
+    "reading": "엄",
+    "meaning": "엄하다"
+  },
+  {
+    "hanja": "業",
+    "reading": "업",
+    "meaning": "업"
+  },
+  {
+    "hanja": "円",
+    "reading": "엔",
+    "meaning": "둥글다/엔"
+  },
+  {
+    "hanja": "余",
+    "reading": "여",
+    "meaning": "나/남다"
+  },
+  {
+    "hanja": "昇",
+    "reading": "여",
+    "meaning": "오르다"
+  },
+  {
+    "hanja": "女",
+    "reading": "여",
+    "meaning": "여자"
+  },
+  {
+    "hanja": "旅",
+    "reading": "여",
+    "meaning": "나그네"
+  },
+  {
+    "hanja": "予",
+    "reading": "여",
+    "meaning": "나/미리"
+  },
+  {
+    "hanja": "歴",
+    "reading": "역",
+    "meaning": "지나다"
+  },
+  {
+    "hanja": "力",
+    "reading": "역",
+    "meaning": "힘"
+  },
+  {
+    "hanja": "逆",
+    "reading": "역",
+    "meaning": "거스르다"
+  },
+  {
+    "hanja": "域",
+    "reading": "역",
+    "meaning": "지경"
+  },
+  {
+    "hanja": "役",
+    "reading": "역",
+    "meaning": "부리다"
+  },
+  {
+    "hanja": "易",
+    "reading": "역",
+    "meaning": "바꾸다/쉽다"
+  },
+  {
+    "hanja": "曜",
+    "reading": "역",
+    "meaning": "빛나다"
+  },
+  {
+    "hanja": "訳",
+    "reading": "역",
+    "meaning": "번역하다"
+  },
+  {
+    "hanja": "駅",
+    "reading": "역",
+    "meaning": "역"
+  },
+  {
+    "hanja": "亦",
+    "reading": "역",
+    "meaning": "또"
+  },
+  {
+    "hanja": "演",
+    "reading": "연",
+    "meaning": "펴다"
+  },
+  {
+    "hanja": "年",
+    "reading": "연",
+    "meaning": "해"
+  },
+  {
+    "hanja": "延",
+    "reading": "연",
+    "meaning": "늘이다"
+  },
+  {
+    "hanja": "研",
+    "reading": "연",
+    "meaning": "갈다"
+  },
+  {
+    "hanja": "恋",
+    "reading": "연",
+    "meaning": "그리워하다"
+  },
+  {
+    "hanja": "練",
+    "reading": "연",
+    "meaning": "익히다"
+  },
+  {
+    "hanja": "沿",
+    "reading": "연",
+    "meaning": "따르다"
+  },
+  {
+    "hanja": "連",
+    "reading": "연",
+    "meaning": "잇다"
+  },
+  {
+    "hanja": "然",
+    "reading": "연",
+    "meaning": "그러하다"
+  },
+  {
+    "hanja": "燃",
+    "reading": "연",
+    "meaning": "타다"
+  },
+  {
+    "hanja": "説",
+    "reading": "열",
+    "meaning": "말씀"
+  },
+  {
+    "hanja": "列",
+    "reading": "열",
+    "meaning": "벌이다"
+  },
+  {
+    "hanja": "熱",
+    "reading": "열",
+    "meaning": "뜨겁다"
+  },
+  {
+    "hanja": "念",
+    "reading": "염",
+    "meaning": "생각"
+  },
+  {
+    "hanja": "厭",
+    "reading": "염",
+    "meaning": "싫어하다"
+  },
+  {
+    "hanja": "染",
+    "reading": "염",
+    "meaning": "물들이다"
+  },
+  {
+    "hanja": "塩",
+    "reading": "염",
+    "meaning": "소금"
+  },
+  {
+    "hanja": "炎",
+    "reading": "염",
+    "meaning": "불꽃"
+  },
+  {
+    "hanja": "葉",
+    "reading": "엽",
+    "meaning": "잎"
+  },
+  {
+    "hanja": "永",
+    "reading": "영",
+    "meaning": "길다"
+  },
+  {
+    "hanja": "泳",
+    "reading": "영",
+    "meaning": "헤엄치다"
+  },
+  {
+    "hanja": "映",
+    "reading": "영",
+    "meaning": "비추다"
+  },
+  {
+    "hanja": "英",
+    "reading": "영",
+    "meaning": "꽃부리/영특하다"
+  },
+  {
+    "hanja": "令",
+    "reading": "영",
+    "meaning": "명령"
+  },
+  {
+    "hanja": "領",
+    "reading": "영",
+    "meaning": "거느리다"
+  },
+  {
+    "hanja": "栄",
+    "reading": "영",
+    "meaning": "영화롭다"
+  },
+  {
+    "hanja": "営",
+    "reading": "영",
+    "meaning": "경영하다"
+  },
+  {
+    "hanja": "予",
+    "reading": "예",
+    "meaning": "나/미리"
+  },
+  {
+    "hanja": "預",
+    "reading": "예",
+    "meaning": "맡기다"
+  },
+  {
+    "hanja": "礼",
+    "reading": "예",
+    "meaning": "예도"
+  },
+  {
+    "hanja": "机",
+    "reading": "예",
+    "meaning": "책상"
+  },
+  {
+    "hanja": "例",
+    "reading": "예",
+    "meaning": "법식"
+  },
+  {
+    "hanja": "芸",
+    "reading": "예",
+    "meaning": "재주"
+  },
+  {
+    "hanja": "義",
+    "reading": "예",
+    "meaning": "옳다"
+  },
+  {
+    "hanja": "五",
+    "reading": "오",
+    "meaning": "다섯"
+  },
+  {
+    "hanja": "午",
+    "reading": "오",
+    "meaning": "낮"
+  },
+  {
+    "hanja": "悪",
+    "reading": "오",
+    "meaning": "악하다"
+  },
+  {
+    "hanja": "呉",
+    "reading": "오",
+    "meaning": "오나라"
+  },
+  {
+    "hanja": "誤",
+    "reading": "오",
+    "meaning": "그르치다"
+  },
+  {
+    "hanja": "獄",
+    "reading": "옥",
+    "meaning": "옥"
+  },
+  {
+    "hanja": "玉",
+    "reading": "옥",
+    "meaning": "구슬"
+  },
+  {
+    "hanja": "屋",
+    "reading": "옥",
+    "meaning": "집"
+  },
+  {
+    "hanja": "温",
+    "reading": "온",
+    "meaning": "따뜻하다"
+  },
+  {
+    "hanja": "渦",
+    "reading": "와",
+    "meaning": "소용돌이"
+  },
+  {
+    "hanja": "臥",
+    "reading": "와",
+    "meaning": "눕다"
+  },
+  {
+    "hanja": "完",
+    "reading": "완",
+    "meaning": "완전하다"
+  },
+  {
+    "hanja": "往",
+    "reading": "왕",
+    "meaning": "가다"
+  },
+  {
+    "hanja": "外",
+    "reading": "외",
+    "meaning": "바깥"
+  },
+  {
+    "hanja": "料",
+    "reading": "요",
+    "meaning": "헤아리다"
+  },
+  {
+    "hanja": "尭",
+    "reading": "요",
+    "meaning": "높다"
+  },
+  {
+    "hanja": "曜",
+    "reading": "요",
+    "meaning": "빛나다"
+  },
+  {
+    "hanja": "楽",
+    "reading": "요",
+    "meaning": "즐기다"
+  },
+  {
+    "hanja": "要",
+    "reading": "요",
+    "meaning": "요긴하다"
+  },
+  {
+    "hanja": "浴",
+    "reading": "욕",
+    "meaning": "목욕하다"
+  },
+  {
+    "hanja": "欲",
+    "reading": "욕",
+    "meaning": "하고자하다"
+  },
+  {
+    "hanja": "容",
+    "reading": "용",
+    "meaning": "얼굴/담다"
+  },
+  {
+    "hanja": "用",
+    "reading": "용",
+    "meaning": "쓰다"
+  },
+  {
+    "hanja": "甬",
+    "reading": "용",
+    "meaning": "길"
+  },
+  {
+    "hanja": "勇",
+    "reading": "용",
+    "meaning": "용감하다"
+  },
+  {
+    "hanja": "郵",
+    "reading": "우",
+    "meaning": "우편"
+  },
+  {
+    "hanja": "羽",
+    "reading": "우",
+    "meaning": "깃"
+  },
+  {
+    "hanja": "友",
+    "reading": "우",
+    "meaning": "벗"
+  },
+  {
+    "hanja": "右",
+    "reading": "우",
+    "meaning": "오른쪽"
+  },
+  {
+    "hanja": "ヨ",
+    "reading": "우",
+    "meaning": ""
+  },
+  {
+    "hanja": "憂",
+    "reading": "우",
+    "meaning": "근심"
+  },
+  {
+    "hanja": "優",
+    "reading": "우",
+    "meaning": "넉넉하다/뛰어나다"
+  },
+  {
+    "hanja": "宇",
+    "reading": "우",
+    "meaning": "집/하늘"
+  },
+  {
+    "hanja": "雨",
+    "reading": "우",
+    "meaning": "비"
+  },
+  {
+    "hanja": "運",
+    "reading": "운",
+    "meaning": "옮기다"
+  },
+  {
+    "hanja": "云",
+    "reading": "운",
+    "meaning": "이르다"
+  },
+  {
+    "hanja": "雲",
+    "reading": "운",
+    "meaning": "구름"
+  },
+  {
+    "hanja": "熊",
+    "reading": "웅",
+    "meaning": "곰"
+  },
+  {
+    "hanja": "元",
+    "reading": "원",
+    "meaning": "으뜸"
+  },
+  {
+    "hanja": "院",
+    "reading": "원",
+    "meaning": "집"
+  },
+  {
+    "hanja": "原",
+    "reading": "원",
+    "meaning": "근원"
+  },
+  {
+    "hanja": "源",
+    "reading": "원",
+    "meaning": "근원"
+  },
+  {
+    "hanja": "願",
+    "reading": "원",
+    "meaning": "원하다"
+  },
+  {
+    "hanja": "袁",
+    "reading": "원",
+    "meaning": "옷"
+  },
+  {
+    "hanja": "遠",
+    "reading": "원",
+    "meaning": "멀다"
+  },
+  {
+    "hanja": "園",
+    "reading": "원",
+    "meaning": "동산"
+  },
+  {
+    "hanja": "愛",
+    "reading": "원",
+    "meaning": "사랑"
+  },
+  {
+    "hanja": "媛",
+    "reading": "원",
+    "meaning": "아리따운 여자"
+  },
+  {
+    "hanja": "員",
+    "reading": "원",
+    "meaning": "인원"
+  },
+  {
+    "hanja": "円",
+    "reading": "원",
+    "meaning": "둥글다/엔"
+  },
+  {
+    "hanja": "口",
+    "reading": "위",
+    "meaning": ""
+  },
+  {
+    "hanja": "胃",
+    "reading": "위",
+    "meaning": "밥통"
+  },
+  {
+    "hanja": "委",
+    "reading": "위",
+    "meaning": "맡기다"
+  },
+  {
+    "hanja": "囲",
+    "reading": "위",
+    "meaning": "에워싸다"
+  },
+  {
+    "hanja": "位",
+    "reading": "위",
+    "meaning": "자리"
+  },
+  {
+    "hanja": "危",
+    "reading": "위",
+    "meaning": "위태롭다"
+  },
+  {
+    "hanja": "韋",
+    "reading": "위",
+    "meaning": "가죽"
+  },
+  {
+    "hanja": "衛",
+    "reading": "위",
+    "meaning": "지키다"
+  },
+  {
+    "hanja": "由",
+    "reading": "유",
+    "meaning": "말미암다"
+  },
+  {
+    "hanja": "油",
+    "reading": "유",
+    "meaning": "기름"
+  },
+  {
+    "hanja": "有",
+    "reading": "유",
+    "meaning": "있다"
+  },
+  {
+    "hanja": "遊",
+    "reading": "유",
+    "meaning": "놀다"
+  },
+  {
+    "hanja": "留",
+    "reading": "유",
+    "meaning": "머무르다"
+  },
+  {
+    "hanja": "幼",
+    "reading": "유",
+    "meaning": "어리다"
+  },
+  {
+    "hanja": "乳",
+    "reading": "유",
+    "meaning": "젖"
+  },
+  {
+    "hanja": "攸",
+    "reading": "유",
+    "meaning": "바"
+  },
+  {
+    "hanja": "遺",
+    "reading": "유",
+    "meaning": "남기다"
+  },
+  {
+    "hanja": "類",
+    "reading": "유",
+    "meaning": "무리"
+  },
+  {
+    "hanja": "流",
+    "reading": "유",
+    "meaning": "흐르다"
+  },
+  {
+    "hanja": "酉",
+    "reading": "유",
+    "meaning": "닭/술"
+  },
+  {
+    "hanja": "六",
+    "reading": "육",
+    "meaning": ""
+  },
+  {
+    "hanja": "肉",
+    "reading": "육",
+    "meaning": "고기"
+  },
+  {
+    "hanja": "育",
+    "reading": "육",
+    "meaning": "기르다"
+  },
+  {
+    "hanja": "垂",
+    "reading": "육",
+    "meaning": ""
+  },
+  {
+    "hanja": "陸",
+    "reading": "육",
+    "meaning": "뭍"
+  },
+  {
+    "hanja": "輪",
+    "reading": "윤",
+    "meaning": "바퀴"
+  },
+  {
+    "hanja": "率",
+    "reading": "율",
+    "meaning": "비율"
+  },
+  {
+    "hanja": "律",
+    "reading": "율",
+    "meaning": "법칙"
+  },
+  {
+    "hanja": "恩",
+    "reading": "은",
+    "meaning": "은혜"
+  },
+  {
+    "hanja": "銀",
+    "reading": "은",
+    "meaning": "은"
+  },
+  {
+    "hanja": "音",
+    "reading": "음",
+    "meaning": "소리"
+  },
+  {
+    "hanja": "飲",
+    "reading": "음",
+    "meaning": "마시다"
+  },
+  {
+    "hanja": "泣",
+    "reading": "읍",
+    "meaning": "울다"
+  },
+  {
+    "hanja": "応",
+    "reading": "응",
+    "meaning": "응하다"
+  },
+  {
+    "hanja": "意",
+    "reading": "의",
+    "meaning": "뜻"
+  },
+  {
+    "hanja": "衣",
+    "reading": "의",
+    "meaning": "옷"
+  },
+  {
+    "hanja": "疑",
+    "reading": "의",
+    "meaning": "의심하다"
+  },
+  {
+    "hanja": "義",
+    "reading": "의",
+    "meaning": "옳다"
+  },
+  {
+    "hanja": "議",
+    "reading": "의",
+    "meaning": "의논하다"
+  },
+  {
+    "hanja": "医",
+    "reading": "의",
+    "meaning": "의원"
+  },
+  {
+    "hanja": "吏",
+    "reading": "이",
+    "meaning": "관리"
+  },
+  {
+    "hanja": "移",
+    "reading": "이",
+    "meaning": "옮기다"
+  },
+  {
+    "hanja": "里",
+    "reading": "이",
+    "meaning": "마을"
+  },
+  {
+    "hanja": "理",
+    "reading": "이",
+    "meaning": "다스리다"
+  },
+  {
+    "hanja": "裏",
+    "reading": "이",
+    "meaning": "속"
+  },
+  {
+    "hanja": "利",
+    "reading": "이",
+    "meaning": "이롭다"
+  },
+  {
+    "hanja": "梨",
+    "reading": "이",
+    "meaning": "배"
+  },
+  {
+    "hanja": "二",
+    "reading": "이",
+    "meaning": "둘"
+  },
+  {
+    "hanja": "異",
+    "reading": "이",
+    "meaning": "다르다"
+  },
+  {
+    "hanja": "耳",
+    "reading": "이",
+    "meaning": "귀"
+  },
+  {
+    "hanja": "易",
+    "reading": "이",
+    "meaning": "바꾸다/쉽다"
+  },
+  {
+    "hanja": "台",
+    "reading": "이",
+    "meaning": "대"
+  },
+  {
+    "hanja": "以",
+    "reading": "이",
+    "meaning": "써"
+  },
+  {
+    "hanja": "翌",
+    "reading": "익",
+    "meaning": "다음"
+  },
+  {
+    "hanja": "益",
+    "reading": "익",
+    "meaning": "더하다"
+  },
+  {
+    "hanja": "仁",
+    "reading": "인",
+    "meaning": "어질다"
+  },
+  {
+    "hanja": "因",
+    "reading": "인",
+    "meaning": "인하다"
+  },
+  {
+    "hanja": "引",
+    "reading": "인",
+    "meaning": "끌다"
+  },
+  {
+    "hanja": "忍",
+    "reading": "인",
+    "meaning": "참다"
+  },
+  {
+    "hanja": "認",
+    "reading": "인",
+    "meaning": "알다"
+  },
+  {
+    "hanja": "印",
+    "reading": "인",
+    "meaning": "도장"
+  },
+  {
+    "hanja": "一",
+    "reading": "일",
+    "meaning": "하나"
+  },
+  {
+    "hanja": "林",
+    "reading": "임",
+    "meaning": "수풀"
+  },
+  {
+    "hanja": "任",
+    "reading": "임",
+    "meaning": "맡기다"
+  },
+  {
+    "hanja": "賃",
+    "reading": "임",
+    "meaning": "삯"
+  },
+  {
+    "hanja": "臨",
+    "reading": "임",
+    "meaning": "임하다"
+  },
+  {
+    "hanja": "立",
+    "reading": "입",
+    "meaning": "서다"
+  },
+  {
+    "hanja": "者",
+    "reading": "자",
+    "meaning": "놈/것"
+  },
+  {
+    "hanja": "姉",
+    "reading": "자",
+    "meaning": "손위누이"
+  },
+  {
+    "hanja": "束",
+    "reading": "자",
+    "meaning": "묶다"
+  },
+  {
+    "hanja": "茲",
+    "reading": "자",
+    "meaning": "이"
+  },
+  {
+    "hanja": "滋",
+    "reading": "자",
+    "meaning": "불다"
+  },
+  {
+    "hanja": "磁",
+    "reading": "자",
+    "meaning": "자석"
+  },
+  {
+    "hanja": "自",
+    "reading": "자",
+    "meaning": "스스로"
+  },
+  {
+    "hanja": "茨",
+    "reading": "자",
+    "meaning": "가시"
+  },
+  {
+    "hanja": "恣",
+    "reading": "자",
+    "meaning": "방자하다"
+  },
+  {
+    "hanja": "資",
+    "reading": "자",
+    "meaning": "재물"
+  },
+  {
+    "hanja": "字",
+    "reading": "자",
+    "meaning": "글자"
+  },
+  {
+    "hanja": "作",
+    "reading": "작",
+    "meaning": "짓다"
+  },
+  {
+    "hanja": "昨",
+    "reading": "작",
+    "meaning": "어제"
+  },
+  {
+    "hanja": "勺",
+    "reading": "작",
+    "meaning": "되/술"
+  },
+  {
+    "hanja": "残",
+    "reading": "잔",
+    "meaning": "남다"
+  },
+  {
+    "hanja": "蚕",
+    "reading": "잠",
+    "meaning": "누에"
+  },
+  {
+    "hanja": "雑",
+    "reading": "잡",
+    "meaning": "섞이다"
+  },
+  {
+    "hanja": "状",
+    "reading": "장",
+    "meaning": "형상"
+  },
+  {
+    "hanja": "章",
+    "reading": "장",
+    "meaning": "글/문채"
+  },
+  {
+    "hanja": "障",
+    "reading": "장",
+    "meaning": "막다"
+  },
+  {
+    "hanja": "長",
+    "reading": "장",
+    "meaning": "길다"
+  },
+  {
+    "hanja": "張",
+    "reading": "장",
+    "meaning": "베풀다"
+  },
+  {
+    "hanja": "帳",
+    "reading": "장",
+    "meaning": "장막"
+  },
+  {
+    "hanja": "蔵",
+    "reading": "장",
+    "meaning": "감추다"
+  },
+  {
+    "hanja": "臓",
+    "reading": "장",
+    "meaning": "내장"
+  },
+  {
+    "hanja": "場",
+    "reading": "장",
+    "meaning": "마당"
+  },
+  {
+    "hanja": "腸",
+    "reading": "장",
+    "meaning": "창자"
+  },
+  {
+    "hanja": "斗",
+    "reading": "장",
+    "meaning": "말"
+  },
+  {
+    "hanja": "将",
+    "reading": "장",
+    "meaning": "장수"
+  },
+  {
+    "hanja": "壮",
+    "reading": "장",
+    "meaning": "씩씩하다"
+  },
+  {
+    "hanja": "装",
+    "reading": "장",
+    "meaning": "꾸미다"
+  },
+  {
+    "hanja": "在",
+    "reading": "재",
+    "meaning": "있다"
+  },
+  {
+    "hanja": "才",
+    "reading": "재",
+    "meaning": "재주"
+  },
+  {
+    "hanja": "材",
+    "reading": "재",
+    "meaning": "재목"
+  },
+  {
+    "hanja": "財",
+    "reading": "재",
+    "meaning": "재물"
+  },
+  {
+    "hanja": "再",
+    "reading": "재",
+    "meaning": "다시"
+  },
+  {
+    "hanja": "哉",
+    "reading": "재",
+    "meaning": "어조사"
+  },
+  {
+    "hanja": "裁",
+    "reading": "재",
+    "meaning": "마르다"
+  },
+  {
+    "hanja": "災",
+    "reading": "재",
+    "meaning": "재앙"
+  },
+  {
+    "hanja": "争",
+    "reading": "쟁",
+    "meaning": "다투다"
+  },
+  {
+    "hanja": "著",
+    "reading": "저",
+    "meaning": "나타나다"
+  },
+  {
+    "hanja": "低",
+    "reading": "저",
+    "meaning": "낮다"
+  },
+  {
+    "hanja": "底",
+    "reading": "저",
+    "meaning": "밑"
+  },
+  {
+    "hanja": "貯",
+    "reading": "저",
+    "meaning": "쌓다"
+  },
+  {
+    "hanja": "笛",
+    "reading": "적",
+    "meaning": "피리"
+  },
+  {
+    "hanja": "商",
+    "reading": "적",
+    "meaning": "장사"
+  },
+  {
+    "hanja": "敵",
+    "reading": "적",
+    "meaning": "원수"
+  },
+  {
+    "hanja": "適",
+    "reading": "적",
+    "meaning": "맞다"
+  },
+  {
+    "hanja": "積",
+    "reading": "적",
+    "meaning": "쌓다"
+  },
+  {
+    "hanja": "績",
+    "reading": "적",
+    "meaning": "길쌈"
+  },
+  {
+    "hanja": "的",
+    "reading": "적",
+    "meaning": "과녁"
+  },
+  {
+    "hanja": "赤",
+    "reading": "적",
+    "meaning": "붉다"
+  },
+  {
+    "hanja": "田",
+    "reading": "전",
+    "meaning": "밭"
+  },
+  {
+    "hanja": "畑",
+    "reading": "전",
+    "meaning": "밭"
+  },
+  {
+    "hanja": "戦",
+    "reading": "전",
+    "meaning": "싸움"
+  },
+  {
+    "hanja": "典",
+    "reading": "전",
+    "meaning": "법"
+  },
+  {
+    "hanja": "全",
+    "reading": "전",
+    "meaning": "온전하다"
+  },
+  {
+    "hanja": "銭",
+    "reading": "전",
+    "meaning": "돈"
+  },
+  {
+    "hanja": "電",
+    "reading": "전",
+    "meaning": "번개"
+  },
+  {
+    "hanja": "専",
+    "reading": "전",
+    "meaning": "오로지"
+  },
+  {
+    "hanja": "伝",
+    "reading": "전",
+    "meaning": "전하다"
+  },
+  {
+    "hanja": "転",
+    "reading": "전",
+    "meaning": "구르다"
+  },
+  {
+    "hanja": "前",
+    "reading": "전",
+    "meaning": "앞"
+  },
+  {
+    "hanja": "展",
+    "reading": "전",
+    "meaning": "펴다"
+  },
+  {
+    "hanja": "節",
+    "reading": "절",
+    "meaning": "마디"
+  },
+  {
+    "hanja": "絶",
+    "reading": "절",
+    "meaning": "끊다"
+  },
+  {
+    "hanja": "切",
+    "reading": "절",
+    "meaning": "끊다"
+  },
+  {
+    "hanja": "折",
+    "reading": "절",
+    "meaning": "꺾다"
+  },
+  {
+    "hanja": "点",
+    "reading": "점",
+    "meaning": "점"
+  },
+  {
+    "hanja": "占",
+    "reading": "점",
+    "meaning": "차지하다"
+  },
+  {
+    "hanja": "店",
+    "reading": "점",
+    "meaning": "가게"
+  },
+  {
+    "hanja": "接",
+    "reading": "접",
+    "meaning": "잇다"
+  },
+  {
+    "hanja": "精",
+    "reading": "정",
+    "meaning": "정미"
+  },
+  {
+    "hanja": "井",
+    "reading": "정",
+    "meaning": "우물"
+  },
+  {
+    "hanja": "廷",
+    "reading": "정",
+    "meaning": "조정"
+  },
+  {
+    "hanja": "庭",
+    "reading": "정",
+    "meaning": "뜰"
+  },
+  {
+    "hanja": "正",
+    "reading": "정",
+    "meaning": "바르다"
+  },
+  {
+    "hanja": "政",
+    "reading": "정",
+    "meaning": "정사"
+  },
+  {
+    "hanja": "定",
+    "reading": "정",
+    "meaning": "정하다"
+  },
+  {
+    "hanja": "整",
+    "reading": "정",
+    "meaning": "가지런하다"
+  },
+  {
+    "hanja": "亭",
+    "reading": "정",
+    "meaning": "정자"
+  },
+  {
+    "hanja": "停",
+    "reading": "정",
+    "meaning": "머무르다"
+  },
+  {
+    "hanja": "呈",
+    "reading": "정",
+    "meaning": "드리다"
+  },
+  {
+    "hanja": "程",
+    "reading": "정",
+    "meaning": "한도"
+  },
+  {
+    "hanja": "情",
+    "reading": "정",
+    "meaning": "뜻"
+  },
+  {
+    "hanja": "町",
+    "reading": "정",
+    "meaning": "밭두둑"
+  },
+  {
+    "hanja": "頂",
+    "reading": "정",
+    "meaning": "정수리"
+  },
+  {
+    "hanja": "静",
+    "reading": "정",
+    "meaning": "고요하다"
+  },
+  {
+    "hanja": "除",
+    "reading": "제",
+    "meaning": "덜다"
+  },
+  {
+    "hanja": "提",
+    "reading": "제",
+    "meaning": "끌다"
+  },
+  {
+    "hanja": "題",
+    "reading": "제",
+    "meaning": "제목"
+  },
+  {
+    "hanja": "諸",
+    "reading": "제",
+    "meaning": "모든"
+  },
+  {
+    "hanja": "制",
+    "reading": "제",
+    "meaning": "만들다"
+  },
+  {
+    "hanja": "製",
+    "reading": "제",
+    "meaning": "만들다"
+  },
+  {
+    "hanja": "弟",
+    "reading": "제",
+    "meaning": "아우"
+  },
+  {
+    "hanja": "第",
+    "reading": "제",
+    "meaning": "차례"
+  },
+  {
+    "hanja": "祭",
+    "reading": "제",
+    "meaning": "제사"
+  },
+  {
+    "hanja": "際",
+    "reading": "제",
+    "meaning": "즈음"
+  },
+  {
+    "hanja": "斉",
+    "reading": "제",
+    "meaning": "가지런하다"
+  },
+  {
+    "hanja": "済",
+    "reading": "제",
+    "meaning": "건너다"
+  },
+  {
+    "hanja": "操",
+    "reading": "조",
+    "meaning": "잡다"
+  },
+  {
+    "hanja": "早",
+    "reading": "조",
+    "meaning": "이르다"
+  },
+  {
+    "hanja": "造",
+    "reading": "조",
+    "meaning": "만들다"
+  },
+  {
+    "hanja": "助",
+    "reading": "조",
+    "meaning": "돕다"
+  },
+  {
+    "hanja": "鳥",
+    "reading": "조",
+    "meaning": "새"
+  },
+  {
+    "hanja": "照",
+    "reading": "조",
+    "meaning": "비추다"
+  },
+  {
+    "hanja": "朝",
+    "reading": "조",
+    "meaning": "아침"
+  },
+  {
+    "hanja": "潮",
+    "reading": "조",
+    "meaning": "조수"
+  },
+  {
+    "hanja": "祖",
+    "reading": "조",
+    "meaning": "할아버지"
+  },
+  {
+    "hanja": "組",
+    "reading": "조",
+    "meaning": "짜다"
+  },
+  {
+    "hanja": "条",
+    "reading": "조",
+    "meaning": "가지"
+  },
+  {
+    "hanja": "調",
+    "reading": "조",
+    "meaning": "고르다"
+  },
+  {
+    "hanja": "兆",
+    "reading": "조",
+    "meaning": "조짐"
+  },
+  {
+    "hanja": "足",
+    "reading": "족",
+    "meaning": "발"
+  },
+  {
+    "hanja": "族",
+    "reading": "족",
+    "meaning": "겨레"
+  },
+  {
+    "hanja": "存",
+    "reading": "존",
+    "meaning": "있다"
+  },
+  {
+    "hanja": "尊",
+    "reading": "존",
+    "meaning": "높다"
+  },
+  {
+    "hanja": "卒",
+    "reading": "졸",
+    "meaning": "마치다"
+  },
+  {
+    "hanja": "種",
+    "reading": "종",
+    "meaning": "씨"
+  },
+  {
+    "hanja": "終",
+    "reading": "종",
+    "meaning": "마치다"
+  },
+  {
+    "hanja": "宗",
+    "reading": "종",
+    "meaning": "마루"
+  },
+  {
+    "hanja": "従",
+    "reading": "종",
+    "meaning": "좇다"
+  },
+  {
+    "hanja": "縦",
+    "reading": "종",
+    "meaning": "세로"
+  },
+  {
+    "hanja": "坐",
+    "reading": "좌",
+    "meaning": "앉다"
+  },
+  {
+    "hanja": "座",
+    "reading": "좌",
+    "meaning": "자리"
+  },
+  {
+    "hanja": "左",
+    "reading": "좌",
+    "meaning": "왼쪽"
+  },
+  {
+    "hanja": "佐",
+    "reading": "좌",
+    "meaning": "돕다"
+  },
+  {
+    "hanja": "罪",
+    "reading": "죄",
+    "meaning": "허물"
+  },
+  {
+    "hanja": "朱",
+    "reading": "주",
+    "meaning": "붉다"
+  },
+  {
+    "hanja": "株",
+    "reading": "주",
+    "meaning": "그루"
+  },
+  {
+    "hanja": "主",
+    "reading": "주",
+    "meaning": "주인"
+  },
+  {
+    "hanja": "住",
+    "reading": "주",
+    "meaning": "살다"
+  },
+  {
+    "hanja": "柱",
+    "reading": "주",
+    "meaning": "기둥"
+  },
+  {
+    "hanja": "注",
+    "reading": "주",
+    "meaning": "부을다"
+  },
+  {
+    "hanja": "走",
+    "reading": "주",
+    "meaning": "달리다"
+  },
+  {
+    "hanja": "奏",
+    "reading": "주",
+    "meaning": "아뢰다"
+  },
+  {
+    "hanja": "昼",
+    "reading": "주",
+    "meaning": "낮"
+  },
+  {
+    "hanja": "周",
+    "reading": "주",
+    "meaning": "두루"
+  },
+  {
+    "hanja": "週",
+    "reading": "주",
+    "meaning": "주일"
+  },
+  {
+    "hanja": "宙",
+    "reading": "주",
+    "meaning": "집/하늘"
+  },
+  {
+    "hanja": "州",
+    "reading": "주",
+    "meaning": "고을"
+  },
+  {
+    "hanja": "酒",
+    "reading": "주",
+    "meaning": "술"
+  },
+  {
+    "hanja": "竹",
+    "reading": "죽",
+    "meaning": "대나무"
+  },
+  {
+    "hanja": "準",
+    "reading": "준",
+    "meaning": "준하다"
+  },
+  {
+    "hanja": "中",
+    "reading": "중",
+    "meaning": "가운데"
+  },
+  {
+    "hanja": "仲",
+    "reading": "중",
+    "meaning": "버금"
+  },
+  {
+    "hanja": "重",
+    "reading": "중",
+    "meaning": "무겁다"
+  },
+  {
+    "hanja": "衆",
+    "reading": "중",
+    "meaning": "무리"
+  },
+  {
+    "hanja": "即",
+    "reading": "즉",
+    "meaning": "곧"
+  },
+  {
+    "hanja": "則",
+    "reading": "즉",
+    "meaning": "법칙"
+  },
+  {
+    "hanja": "曽",
+    "reading": "증",
+    "meaning": "일찍"
+  },
+  {
+    "hanja": "増",
+    "reading": "증",
+    "meaning": "더하다"
+  },
+  {
+    "hanja": "憎",
+    "reading": "증",
+    "meaning": "미워하다"
+  },
+  {
+    "hanja": "蒸",
+    "reading": "증",
+    "meaning": "찌다"
+  },
+  {
+    "hanja": "証",
+    "reading": "증",
+    "meaning": "증거"
+  },
+  {
+    "hanja": "枝",
+    "reading": "지",
+    "meaning": "가지"
+  },
+  {
+    "hanja": "志",
+    "reading": "지",
+    "meaning": "뜻"
+  },
+  {
+    "hanja": "誌",
+    "reading": "지",
+    "meaning": "기록"
+  },
+  {
+    "hanja": "地",
+    "reading": "지",
+    "meaning": "땅"
+  },
+  {
+    "hanja": "池",
+    "reading": "지",
+    "meaning": "못"
+  },
+  {
+    "hanja": "持",
+    "reading": "지",
+    "meaning": "가지다"
+  },
+  {
+    "hanja": "知",
+    "reading": "지",
+    "meaning": "알다"
+  },
+  {
+    "hanja": "識",
+    "reading": "지",
+    "meaning": "알다"
+  },
+  {
+    "hanja": "紙",
+    "reading": "지",
+    "meaning": "종이"
+  },
+  {
+    "hanja": "至",
+    "reading": "지",
+    "meaning": "이르다"
+  },
+  {
+    "hanja": "指",
+    "reading": "지",
+    "meaning": "가리키다"
+  },
+  {
+    "hanja": "直",
+    "reading": "직",
+    "meaning": "곧다"
+  },
+  {
+    "hanja": "職",
+    "reading": "직",
+    "meaning": "직분"
+  },
+  {
+    "hanja": "織",
+    "reading": "직",
+    "meaning": "짜다"
+  },
+  {
+    "hanja": "進",
+    "reading": "진",
+    "meaning": "나아가다"
+  },
+  {
+    "hanja": "真",
+    "reading": "진",
+    "meaning": "참"
+  },
+  {
+    "hanja": "質",
+    "reading": "질",
+    "meaning": "바탕"
+  },
+  {
+    "hanja": "集",
+    "reading": "집",
+    "meaning": "모으다"
+  },
+  {
+    "hanja": "茶",
+    "reading": "차",
+    "meaning": "차"
+  },
+  {
+    "hanja": "借",
+    "reading": "차",
+    "meaning": "빌리다"
+  },
+  {
+    "hanja": "車",
+    "reading": "차",
+    "meaning": "수레"
+  },
+  {
+    "hanja": "次",
+    "reading": "차",
+    "meaning": "버금"
+  },
+  {
+    "hanja": "差",
+    "reading": "차",
+    "meaning": "다르다"
+  },
+  {
+    "hanja": "着",
+    "reading": "착",
+    "meaning": "붙다"
+  },
+  {
+    "hanja": "捉",
+    "reading": "착",
+    "meaning": "잡다"
+  },
+  {
+    "hanja": "著",
+    "reading": "착",
+    "meaning": "나타나다"
+  },
+  {
+    "hanja": "賛",
+    "reading": "찬",
+    "meaning": "돕다"
+  },
+  {
+    "hanja": "札",
+    "reading": "찰",
+    "meaning": "패"
+  },
+  {
+    "hanja": "察",
+    "reading": "찰",
+    "meaning": "살피다"
+  },
+  {
+    "hanja": "参",
+    "reading": "참",
+    "meaning": "참여하다"
+  },
+  {
+    "hanja": "昌",
+    "reading": "창",
+    "meaning": "창성하다"
+  },
+  {
+    "hanja": "唱",
+    "reading": "창",
+    "meaning": "부르다"
+  },
+  {
+    "hanja": "窓",
+    "reading": "창",
+    "meaning": "창"
+  },
+  {
+    "hanja": "倉",
+    "reading": "창",
+    "meaning": "곳집"
+  },
+  {
+    "hanja": "創",
+    "reading": "창",
+    "meaning": "비롯하다"
+  },
+  {
+    "hanja": "采",
+    "reading": "채",
+    "meaning": "캐다"
+  },
+  {
+    "hanja": "採",
+    "reading": "채",
+    "meaning": "캐다"
+  },
+  {
+    "hanja": "菜",
+    "reading": "채",
+    "meaning": "나물"
+  },
+  {
+    "hanja": "冊",
+    "reading": "책",
+    "meaning": "책"
+  },
+  {
+    "hanja": "册",
+    "reading": "책",
+    "meaning": "책"
+  },
+  {
+    "hanja": "責",
+    "reading": "책",
+    "meaning": "꾸짖다"
+  },
+  {
+    "hanja": "策",
+    "reading": "책",
+    "meaning": "꾀"
+  },
+  {
+    "hanja": "妻",
+    "reading": "처",
+    "meaning": "아내"
+  },
+  {
+    "hanja": "処",
+    "reading": "처",
+    "meaning": "곳"
+  },
+  {
+    "hanja": "泉",
+    "reading": "천",
+    "meaning": "샘"
+  },
+  {
+    "hanja": "浅",
+    "reading": "천",
+    "meaning": "얕다"
+  },
+  {
+    "hanja": "巛",
+    "reading": "천",
+    "meaning": "내"
+  },
+  {
+    "hanja": "鉄",
+    "reading": "철",
+    "meaning": "쇠"
+  },
+  {
+    "hanja": "妾",
+    "reading": "첩",
+    "meaning": "첩"
+  },
+  {
+    "hanja": "青",
+    "reading": "청",
+    "meaning": "푸르다"
+  },
+  {
+    "hanja": "清",
+    "reading": "청",
+    "meaning": "맑다"
+  },
+  {
+    "hanja": "晴",
+    "reading": "청",
+    "meaning": "개다"
+  },
+  {
+    "hanja": "聴",
+    "reading": "청",
+    "meaning": "듣다"
+  },
+  {
+    "hanja": "庁",
+    "reading": "청",
+    "meaning": "관청"
+  },
+  {
+    "hanja": "体",
+    "reading": "체",
+    "meaning": "몸"
+  },
+  {
+    "hanja": "切",
+    "reading": "체",
+    "meaning": "끊다"
+  },
+  {
+    "hanja": "草",
+    "reading": "초",
+    "meaning": "풀"
+  },
+  {
+    "hanja": "初",
+    "reading": "초",
+    "meaning": "처음"
+  },
+  {
+    "hanja": "招",
+    "reading": "초",
+    "meaning": "부르다"
+  },
+  {
+    "hanja": "肖",
+    "reading": "초",
+    "meaning": "닮다"
+  },
+  {
+    "hanja": "秒",
+    "reading": "초(묘)",
+    "meaning": "초"
+  },
+  {
+    "hanja": "蜀",
+    "reading": "촉",
+    "meaning": "촉나라"
+  },
+  {
+    "hanja": "村",
+    "reading": "촌",
+    "meaning": "마을"
+  },
+  {
+    "hanja": "総",
+    "reading": "총",
+    "meaning": "거느리다"
+  },
+  {
+    "hanja": "最",
+    "reading": "최",
+    "meaning": "가장"
+  },
+  {
+    "hanja": "秋",
+    "reading": "추",
+    "meaning": "가을"
+  },
+  {
+    "hanja": "佳",
+    "reading": "추",
+    "meaning": "아름답다"
+  },
+  {
+    "hanja": "推",
+    "reading": "추",
+    "meaning": "밀다"
+  },
+  {
+    "hanja": "追",
+    "reading": "추",
+    "meaning": "쫓다"
+  },
+  {
+    "hanja": "帰",
+    "reading": "추",
+    "meaning": "돌아가다"
+  },
+  {
+    "hanja": "酋",
+    "reading": "추",
+    "meaning": "우두머리"
+  },
+  {
+    "hanja": "祝",
+    "reading": "축",
+    "meaning": "빌다"
+  },
+  {
+    "hanja": "縮",
+    "reading": "축",
+    "meaning": "줄이다"
+  },
+  {
+    "hanja": "築",
+    "reading": "축",
+    "meaning": "쌓다"
+  },
+  {
+    "hanja": "春",
+    "reading": "춘",
+    "meaning": "봄"
+  },
+  {
+    "hanja": "出",
+    "reading": "출",
+    "meaning": "나다"
+  },
+  {
+    "hanja": "沖",
+    "reading": "충",
+    "meaning": "가운데"
+  },
+  {
+    "hanja": "忠",
+    "reading": "충",
+    "meaning": "충성"
+  },
+  {
+    "hanja": "充",
+    "reading": "충",
+    "meaning": "채우다"
+  },
+  {
+    "hanja": "虫",
+    "reading": "충",
+    "meaning": "벌레"
+  },
+  {
+    "hanja": "就",
+    "reading": "취",
+    "meaning": "나아가다"
+  },
+  {
+    "hanja": "取",
+    "reading": "취",
+    "meaning": "가지다"
+  },
+  {
+    "hanja": "側",
+    "reading": "측",
+    "meaning": "곁"
+  },
+  {
+    "hanja": "測",
+    "reading": "측",
+    "meaning": "헤아리다"
+  },
+  {
+    "hanja": "層",
+    "reading": "층",
+    "meaning": "층"
+  },
+  {
+    "hanja": "歯",
+    "reading": "치",
+    "meaning": "이"
+  },
+  {
+    "hanja": "値",
+    "reading": "치",
+    "meaning": "값"
+  },
+  {
+    "hanja": "父",
+    "reading": "치",
+    "meaning": "아비"
+  },
+  {
+    "hanja": "置",
+    "reading": "치",
+    "meaning": "두다"
+  },
+  {
+    "hanja": "治",
+    "reading": "치",
+    "meaning": "다스리다"
+  },
+  {
+    "hanja": "差",
+    "reading": "치",
+    "meaning": "다르다"
+  },
+  {
+    "hanja": "則",
+    "reading": "칙",
+    "meaning": "법칙"
+  },
+  {
+    "hanja": "親",
+    "reading": "친",
+    "meaning": "친하다"
+  },
+  {
+    "hanja": "針",
+    "reading": "침",
+    "meaning": "바늘"
+  },
+  {
+    "hanja": "夬",
+    "reading": "쾌",
+    "meaning": "쾌하다"
+  },
+  {
+    "hanja": "快",
+    "reading": "쾌",
+    "meaning": "쾌하다"
+  },
+  {
+    "hanja": "他",
+    "reading": "타",
+    "meaning": "다른"
+  },
+  {
+    "hanja": "打",
+    "reading": "타",
+    "meaning": "치다"
+  },
+  {
+    "hanja": "度",
+    "reading": "탁",
+    "meaning": "법도"
+  },
+  {
+    "hanja": "誕",
+    "reading": "탄",
+    "meaning": "탄생하다"
+  },
+  {
+    "hanja": "炭",
+    "reading": "탄",
+    "meaning": "숯"
+  },
+  {
+    "hanja": "貪",
+    "reading": "탐",
+    "meaning": "탐하다"
+  },
+  {
+    "hanja": "探",
+    "reading": "탐",
+    "meaning": "찾다"
+  },
+  {
+    "hanja": "糖",
+    "reading": "탕",
+    "meaning": "엿"
+  },
+  {
+    "hanja": "湯",
+    "reading": "탕",
+    "meaning": "끓는물"
+  },
+  {
+    "hanja": "兌",
+    "reading": "태",
+    "meaning": "기쁘다"
+  },
+  {
+    "hanja": "太",
+    "reading": "태",
+    "meaning": "크다"
+  },
+  {
+    "hanja": "台",
+    "reading": "태",
+    "meaning": "대"
+  },
+  {
+    "hanja": "態",
+    "reading": "태",
+    "meaning": "모습"
+  },
+  {
+    "hanja": "宅",
+    "reading": "택",
+    "meaning": "집"
+  },
+  {
+    "hanja": "討",
+    "reading": "토",
+    "meaning": "치다"
+  },
+  {
+    "hanja": "兎",
+    "reading": "토",
+    "meaning": "토끼"
+  },
+  {
+    "hanja": "通",
+    "reading": "통",
+    "meaning": "통하다"
+  },
+  {
+    "hanja": "統",
+    "reading": "통",
+    "meaning": "거느리다"
+  },
+  {
+    "hanja": "痛",
+    "reading": "통",
+    "meaning": "아프다"
+  },
+  {
+    "hanja": "推",
+    "reading": "퇴",
+    "meaning": "밀다"
+  },
+  {
+    "hanja": "退",
+    "reading": "퇴",
+    "meaning": "물러나다"
+  },
+  {
+    "hanja": "投",
+    "reading": "투",
+    "meaning": "던지다"
+  },
+  {
+    "hanja": "特",
+    "reading": "특",
+    "meaning": "특별하다"
+  },
+  {
+    "hanja": "波",
+    "reading": "파",
+    "meaning": "물결"
+  },
+  {
+    "hanja": "破",
+    "reading": "파",
+    "meaning": "깨뜨리다"
+  },
+  {
+    "hanja": "派",
+    "reading": "파",
+    "meaning": "갈래"
+  },
+  {
+    "hanja": "判",
+    "reading": "판",
+    "meaning": "판단하다"
+  },
+  {
+    "hanja": "阪",
+    "reading": "판",
+    "meaning": "언덕"
+  },
+  {
+    "hanja": "坂",
+    "reading": "판",
+    "meaning": "언덕"
+  },
+  {
+    "hanja": "板",
+    "reading": "판",
+    "meaning": "널빤지"
+  },
+  {
+    "hanja": "版",
+    "reading": "판",
+    "meaning": "판"
+  },
+  {
+    "hanja": "敗",
+    "reading": "패",
+    "meaning": "패하다"
+  },
+  {
+    "hanja": "貝",
+    "reading": "패",
+    "meaning": "조개"
+  },
+  {
+    "hanja": "便",
+    "reading": "편",
+    "meaning": "편하다"
+  },
+  {
+    "hanja": "扁",
+    "reading": "편",
+    "meaning": "작다"
+  },
+  {
+    "hanja": "編",
+    "reading": "편",
+    "meaning": "엮다"
+  },
+  {
+    "hanja": "平",
+    "reading": "평",
+    "meaning": "평평하다"
+  },
+  {
+    "hanja": "評",
+    "reading": "평",
+    "meaning": "평하다"
+  },
+  {
+    "hanja": "閉",
+    "reading": "폐",
+    "meaning": "닫다"
+  },
+  {
+    "hanja": "肺",
+    "reading": "폐",
+    "meaning": "허파"
+  },
+  {
+    "hanja": "陛",
+    "reading": "폐",
+    "meaning": "섬돌"
+  },
+  {
+    "hanja": "暴",
+    "reading": "포",
+    "meaning": "사납다"
+  },
+  {
+    "hanja": "布",
+    "reading": "포",
+    "meaning": "베"
+  },
+  {
+    "hanja": "包",
+    "reading": "포",
+    "meaning": "싸다"
+  },
+  {
+    "hanja": "専",
+    "reading": "포",
+    "meaning": "오로지"
+  },
+  {
+    "hanja": "暴",
+    "reading": "폭",
+    "meaning": "사납다"
+  },
+  {
+    "hanja": "表",
+    "reading": "표",
+    "meaning": "겉"
+  },
+  {
+    "hanja": "俵",
+    "reading": "표",
+    "meaning": "가마니"
+  },
+  {
+    "hanja": "票",
+    "reading": "표",
+    "meaning": "표"
+  },
+  {
+    "hanja": "標",
+    "reading": "표",
+    "meaning": "표"
+  },
+  {
+    "hanja": "分",
+    "reading": "푼",
+    "meaning": "나누다"
+  },
+  {
+    "hanja": "品",
+    "reading": "품",
+    "meaning": "물건"
+  },
+  {
+    "hanja": "豊",
+    "reading": "풍",
+    "meaning": "풍성하다"
+  },
+  {
+    "hanja": "風",
+    "reading": "풍",
+    "meaning": "바람"
+  },
+  {
+    "hanja": "丰",
+    "reading": "풍",
+    "meaning": ""
+  },
+  {
+    "hanja": "皮",
+    "reading": "피",
+    "meaning": "가죽"
+  },
+  {
+    "hanja": "必",
+    "reading": "필",
+    "meaning": "반드시"
+  },
+  {
+    "hanja": "筆",
+    "reading": "필",
+    "meaning": "붓"
+  },
+  {
+    "hanja": "賀",
+    "reading": "하",
+    "meaning": "축하하다"
+  },
+  {
+    "hanja": "河",
+    "reading": "하",
+    "meaning": "물"
+  },
+  {
+    "hanja": "何",
+    "reading": "하",
+    "meaning": "어찌"
+  },
+  {
+    "hanja": "荷",
+    "reading": "하",
+    "meaning": "짐"
+  },
+  {
+    "hanja": "夏",
+    "reading": "하",
+    "meaning": "여름"
+  },
+  {
+    "hanja": "学",
+    "reading": "학",
+    "meaning": "배우다"
+  },
+  {
+    "hanja": "寒",
+    "reading": "한",
+    "meaning": "춥다"
+  },
+  {
+    "hanja": "漢",
+    "reading": "한",
+    "meaning": "한나라"
+  },
+  {
+    "hanja": "限",
+    "reading": "한",
+    "meaning": "한정하다"
+  },
+  {
+    "hanja": "割",
+    "reading": "할",
+    "meaning": "나누다"
+  },
+  {
+    "hanja": "合",
+    "reading": "합",
+    "meaning": "합하다"
+  },
+  {
+    "hanja": "巷",
+    "reading": "항",
+    "meaning": "거리"
+  },
+  {
+    "hanja": "港",
+    "reading": "항",
+    "meaning": "항구"
+  },
+  {
+    "hanja": "航",
+    "reading": "항",
+    "meaning": "배"
+  },
+  {
+    "hanja": "降",
+    "reading": "항",
+    "meaning": "내리다"
+  },
+  {
+    "hanja": "行",
+    "reading": "항",
+    "meaning": "가다"
+  },
+  {
+    "hanja": "海",
+    "reading": "해",
+    "meaning": "바다"
+  },
+  {
+    "hanja": "害",
+    "reading": "해",
+    "meaning": "해치다"
+  },
+  {
+    "hanja": "解",
+    "reading": "해",
+    "meaning": "풀다"
+  },
+  {
+    "hanja": "幸",
+    "reading": "행",
+    "meaning": "다행"
+  },
+  {
+    "hanja": "行",
+    "reading": "행",
+    "meaning": "가다"
+  },
+  {
+    "hanja": "香",
+    "reading": "향",
+    "meaning": "향기"
+  },
+  {
+    "hanja": "向",
+    "reading": "향",
+    "meaning": "향하다"
+  },
+  {
+    "hanja": "享",
+    "reading": "향",
+    "meaning": "누리다"
+  },
+  {
+    "hanja": "郷",
+    "reading": "향",
+    "meaning": "시골"
+  },
+  {
+    "hanja": "許",
+    "reading": "허",
+    "meaning": "허락하다"
+  },
+  {
+    "hanja": "憲",
+    "reading": "헌",
+    "meaning": "법"
+  },
+  {
+    "hanja": "険",
+    "reading": "험",
+    "meaning": "험하다"
+  },
+  {
+    "hanja": "験",
+    "reading": "험",
+    "meaning": "시험"
+  },
+  {
+    "hanja": "革",
+    "reading": "혁",
+    "meaning": "가죽/고치다"
+  },
+  {
+    "hanja": "玄",
+    "reading": "현",
+    "meaning": "검다"
+  },
+  {
+    "hanja": "県",
+    "reading": "현",
+    "meaning": "고을"
+  },
+  {
+    "hanja": "見",
+    "reading": "현",
+    "meaning": "보다"
+  },
+  {
+    "hanja": "現",
+    "reading": "현",
+    "meaning": "나타나다"
+  },
+  {
+    "hanja": "血",
+    "reading": "혈",
+    "meaning": "피"
+  },
+  {
+    "hanja": "頁",
+    "reading": "혈",
+    "meaning": "머리"
+  },
+  {
+    "hanja": "穴",
+    "reading": "혈",
+    "meaning": "구멍"
+  },
+  {
+    "hanja": "脇",
+    "reading": "협",
+    "meaning": "겨드랑이"
+  },
+  {
+    "hanja": "協",
+    "reading": "협",
+    "meaning": "협력하다"
+  },
+  {
+    "hanja": "形",
+    "reading": "형",
+    "meaning": "모양"
+  },
+  {
+    "hanja": "刑",
+    "reading": "형",
+    "meaning": "형벌"
+  },
+  {
+    "hanja": "型",
+    "reading": "형",
+    "meaning": "틀"
+  },
+  {
+    "hanja": "胡",
+    "reading": "호",
+    "meaning": "오랑캐"
+  },
+  {
+    "hanja": "湖",
+    "reading": "호",
+    "meaning": "호수"
+  },
+  {
+    "hanja": "乎",
+    "reading": "호",
+    "meaning": "어조사"
+  },
+  {
+    "hanja": "呼",
+    "reading": "호",
+    "meaning": "부르다"
+  },
+  {
+    "hanja": "好",
+    "reading": "호",
+    "meaning": "좋다"
+  },
+  {
+    "hanja": "護",
+    "reading": "호",
+    "meaning": "보호하다"
+  },
+  {
+    "hanja": "庇",
+    "reading": "호",
+    "meaning": "덮다"
+  },
+  {
+    "hanja": "虎",
+    "reading": "호",
+    "meaning": "호랑이"
+  },
+  {
+    "hanja": "号",
+    "reading": "호",
+    "meaning": "이름/부르짖다"
+  },
+  {
+    "hanja": "或",
+    "reading": "혹",
+    "meaning": "혹"
+  },
+  {
+    "hanja": "混",
+    "reading": "혼",
+    "meaning": "섞다"
+  },
+  {
+    "hanja": "紅",
+    "reading": "홍",
+    "meaning": "붉다"
+  },
+  {
+    "hanja": "弘",
+    "reading": "홍",
+    "meaning": "넓다"
+  },
+  {
+    "hanja": "和",
+    "reading": "화",
+    "meaning": "화목하다"
+  },
+  {
+    "hanja": "話",
+    "reading": "화",
+    "meaning": "말씀"
+  },
+  {
+    "hanja": "画",
+    "reading": "화",
+    "meaning": "그림"
+  },
+  {
+    "hanja": "化",
+    "reading": "화",
+    "meaning": "되다"
+  },
+  {
+    "hanja": "花",
+    "reading": "화",
+    "meaning": "꽃"
+  },
+  {
+    "hanja": "貨",
+    "reading": "화",
+    "meaning": "재화"
+  },
+  {
+    "hanja": "呉",
+    "reading": "화",
+    "meaning": "오나라"
+  },
+  {
+    "hanja": "火",
+    "reading": "화",
+    "meaning": "불"
+  },
+  {
+    "hanja": "確",
+    "reading": "확",
+    "meaning": "확실하다"
+  },
+  {
+    "hanja": "拡",
+    "reading": "확",
+    "meaning": "넓히다"
+  },
+  {
+    "hanja": "活",
+    "reading": "활",
+    "meaning": "살다"
+  },
+  {
+    "hanja": "皇",
+    "reading": "황",
+    "meaning": "임금"
+  },
+  {
+    "hanja": "黄",
+    "reading": "황",
+    "meaning": "누르다"
+  },
+  {
+    "hanja": "回",
+    "reading": "회",
+    "meaning": "돌다"
+  },
+  {
+    "hanja": "栃",
+    "reading": "회",
+    "meaning": "상수리나무"
+  },
+  {
+    "hanja": "会",
+    "reading": "회",
+    "meaning": "모이다"
+  },
+  {
+    "hanja": "絵",
+    "reading": "회",
+    "meaning": "그림"
+  },
+  {
+    "hanja": "画",
+    "reading": "획",
+    "meaning": "그림"
+  },
+  {
+    "hanja": "横",
+    "reading": "횡",
+    "meaning": "가로"
+  },
+  {
+    "hanja": "孝",
+    "reading": "효",
+    "meaning": "효도"
+  },
+  {
+    "hanja": "効",
+    "reading": "효",
+    "meaning": "효과"
+  },
+  {
+    "hanja": "厚",
+    "reading": "후",
+    "meaning": "두껍다"
+  },
+  {
+    "hanja": "侯",
+    "reading": "후",
+    "meaning": "제후"
+  },
+  {
+    "hanja": "候",
+    "reading": "후",
+    "meaning": "기후"
+  },
+  {
+    "hanja": "後",
+    "reading": "후",
+    "meaning": "뒤"
+  },
+  {
+    "hanja": "后",
+    "reading": "후",
+    "meaning": "왕비"
+  },
+  {
+    "hanja": "訓",
+    "reading": "훈",
+    "meaning": "가르치다"
+  },
+  {
+    "hanja": "揮",
+    "reading": "휘",
+    "meaning": "휘두르다"
+  },
+  {
+    "hanja": "休",
+    "reading": "휴",
+    "meaning": "쉬다"
+  },
+  {
+    "hanja": "胸",
+    "reading": "흉",
+    "meaning": "가슴"
+  },
+  {
+    "hanja": "黒",
+    "reading": "흑",
+    "meaning": "검다"
+  },
+  {
+    "hanja": "吸",
+    "reading": "흡",
+    "meaning": "빨다"
+  },
+  {
+    "hanja": "興",
+    "reading": "흥",
+    "meaning": "일어나다"
+  },
+  {
+    "hanja": "喜",
+    "reading": "희",
+    "meaning": "기쁘다"
+  },
+  {
+    "hanja": "希",
+    "reading": "희",
+    "meaning": "바라다"
+  }
+]
