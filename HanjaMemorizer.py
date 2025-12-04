@@ -983,29 +983,6 @@ class HanjaMemorizer(QMainWindow):
             remove_memorized(hanja)
         
         self.update_memorized_stats()
-        
-        # 미암기 모드에서 체크하면 다음 한자로 이동
-        if checked and self.current_mode == "unmemorized":
-            # 현재 한자를 리스트에서 제거
-            self.hanja_list.pop(self.current_index)
-            
-            if not self.hanja_list:
-                QMessageBox.information(self, "축하합니다!", "모든 한자를 암기했습니다! 🎉")
-                self.hanja_label.setText("완료!")
-                self.reading_label.setText("")
-                self.meaning_label.setText("")
-                self.start_btn.setEnabled(False)
-                self.memorized_checkbox.setChecked(False)
-                return
-            
-            # 인덱스 조정
-            if self.current_index >= len(self.hanja_list):
-                self.current_index = 0
-            
-            self.count_label.setText(f"총 {len(self.hanja_list)}개 한자")
-            self.progress_bar.setMaximum(len(self.hanja_list))
-            self.update_progress()
-            self.show_current_hanja()
     
     def update_memorized_stats(self):
         """암기 통계 업데이트"""
