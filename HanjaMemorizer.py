@@ -1,9 +1,11 @@
 ﻿"""
-한자 암기 프로그램 v3
+한자 암기 프로그램 v4.1
 - 로컬 엑셀 파일 로드
 - 구글 시트 URL로 로드
 - 이전 파일 캐싱 및 드롭다운 선택
-- 한자 2초 표시 → 음/뜻 2초 표시 반복
+- 한자 2초 표시 → 음/뜻/음독/훈독 2초 표시 반복
+- 새 시트 양식의 음독/훈독 열 표시
+- 창 크기 조절 및 저해상도 환경 대응
 - 랜덤 순서로 학습
 - 암기완료 토글 기능 (전체모드 / 미암기모드)
 """
@@ -19,7 +21,7 @@ from PyQt5.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
     QPushButton, QLabel, QFileDialog, QMessageBox, QFrame, QSpinBox,
     QGroupBox, QProgressBar, QComboBox, QLineEdit, QDialog, QDialogButtonBox,
-    QCheckBox, QButtonGroup, QRadioButton
+    QCheckBox, QButtonGroup, QRadioButton, QScrollArea
 )
 from PyQt5.QtCore import Qt, QTimer
 from PyQt5.QtGui import QFont
@@ -281,15 +283,42 @@ class HanjaMemorizer(QMainWindow):
         self.load_cache_dropdown()
         
     def init_ui(self):
-        self.setWindowTitle("한자 암기 프로그램 v3")
-        self.setGeometry(100, 100, 900, 750)
+        self.setWindowTitle("한자 암기 프로그램 v4.1")
+        # 기본 크기는 유지하되, 저해상도 환경에서 사용자가 창을 줄일 수 있게 설정
+        self.resize(900, 750)
+        self.setMinimumSize(520, 420)
         self.setStyleSheet("background-color: #1a1a2e;")
-        
+
+        # 창을 작게 줄였을 때 내부 영역이 잘리지 않도록 스크롤 영역 사용
+        scroll_area = QScrollArea()
+        scroll_area.setWidgetResizable(True)
+        scroll_area.setFrameShape(QFrame.NoFrame)
+        scroll_area.setHorizontalScrollBarPolicy(Qt.ScrollBarAsNeeded)
+        scroll_area.setVerticalScrollBarPolicy(Qt.ScrollBarAsNeeded)
+        scroll_area.setStyleSheet("""
+            QScrollArea {
+                background-color: #1a1a2e;
+                border: none;
+            }
+            QScrollBar:vertical, QScrollBar:horizontal {
+                background-color: #16213e;
+                border: none;
+                width: 10px;
+                height: 10px;
+            }
+            QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
+                background-color: #4ecca3;
+                border-radius: 5px;
+            }
+        """)
+
         main_widget = QWidget()
-        self.setCentralWidget(main_widget)
+        scroll_area.setWidget(main_widget)
+        self.setCentralWidget(scroll_area)
+
         layout = QVBoxLayout(main_widget)
-        layout.setSpacing(12)
-        layout.setContentsMargins(25, 25, 25, 25)
+        layout.setSpacing(10)
+        layout.setContentsMargins(18, 18, 18, 18)
         
         # ===== 파일 로드 영역 =====
         load_frame = QFrame()
@@ -647,15 +676,16 @@ class HanjaMemorizer(QMainWindow):
         layout.addWidget(self.progress_bar)
         
         # ===== 메인 디스플레이 =====
-        display_frame = QFrame()
-        display_frame.setStyleSheet("""
+        self.display_frame = QFrame()
+        self.display_frame.setStyleSheet("""
             QFrame {
                 background-color: #16213e;
                 border-radius: 20px;
             }
         """)
-        display_layout = QVBoxLayout(display_frame)
-        display_layout.setContentsMargins(40, 20, 40, 30)
+        display_layout = QVBoxLayout(self.display_frame)
+        display_layout.setContentsMargins(30, 16, 30, 24)
+        display_layout.setSpacing(6)
         
         # 상단: 암기완료 체크박스
         top_layout = QHBoxLayout()
@@ -708,6 +738,7 @@ class HanjaMemorizer(QMainWindow):
         
         self.reading_label = QLabel("")
         self.reading_label.setAlignment(Qt.AlignCenter)
+        self.reading_label.setWordWrap(True)
         self.reading_label.setStyleSheet("""
             QLabel {
                 color: #4ecca3;
@@ -719,6 +750,7 @@ class HanjaMemorizer(QMainWindow):
         
         self.meaning_label = QLabel("")
         self.meaning_label.setAlignment(Qt.AlignCenter)
+        self.meaning_label.setWordWrap(True)
         self.meaning_label.setStyleSheet("""
             QLabel {
                 color: #f39c12;
@@ -726,8 +758,31 @@ class HanjaMemorizer(QMainWindow):
             }
         """)
         display_layout.addWidget(self.meaning_label)
+
+        # 음독/훈독 표시 - 기존 뜻 텍스트보다 약 2px 작게 설정
+        self.onyomi_label = QLabel("")
+        self.onyomi_label.setAlignment(Qt.AlignCenter)
+        self.onyomi_label.setWordWrap(True)
+        self.onyomi_label.setStyleSheet("""
+            QLabel {
+                color: #b5ead7;
+                font-size: 30px;
+            }
+        """)
+        display_layout.addWidget(self.onyomi_label)
+
+        self.kunyomi_label = QLabel("")
+        self.kunyomi_label.setAlignment(Qt.AlignCenter)
+        self.kunyomi_label.setWordWrap(True)
+        self.kunyomi_label.setStyleSheet("""
+            QLabel {
+                color: #c7ceea;
+                font-size: 30px;
+            }
+        """)
+        display_layout.addWidget(self.kunyomi_label)
         
-        layout.addWidget(display_frame, 1)
+        layout.addWidget(self.display_frame, 1)
         
         # ===== 네비게이션 =====
         nav_layout = QHBoxLayout()
@@ -782,6 +837,68 @@ class HanjaMemorizer(QMainWindow):
         
         # 암기 통계 업데이트
         self.update_memorized_stats()
+        self.apply_responsive_display_styles(dimmed=False)
+
+    def get_responsive_scale(self):
+        """현재 창 크기에 맞춘 글자 축소 비율 반환"""
+        width_scale = self.width() / 900
+        height_scale = self.height() / 750
+        return max(0.45, min(1.0, width_scale, height_scale))
+
+    def scaled_font_size(self, base_size, minimum_size):
+        """기준 글자 크기를 창 크기에 맞춰 축소"""
+        return max(minimum_size, int(base_size * self.get_responsive_scale()))
+
+    def apply_responsive_display_styles(self, dimmed=False):
+        """창 크기에 따라 한자/뜻/음독/훈독 글자 크기를 자동 조절"""
+        required_labels = ['hanja_label', 'reading_label', 'meaning_label', 'onyomi_label', 'kunyomi_label']
+        if not all(hasattr(self, label_name) for label_name in required_labels):
+            return
+
+        hanja_color = "#888888" if dimmed else "#ffffff"
+        hanja_size = self.scaled_font_size(150, 68)
+        reading_size = self.scaled_font_size(48, 24)
+        meaning_size = self.scaled_font_size(32, 18)
+        yomikata_size = self.scaled_font_size(30, 16)
+
+        self.hanja_label.setStyleSheet(f"""
+            QLabel {{
+                color: {hanja_color};
+                font-size: {hanja_size}px;
+                font-weight: bold;
+            }}
+        """)
+        self.reading_label.setStyleSheet(f"""
+            QLabel {{
+                color: #4ecca3;
+                font-size: {reading_size}px;
+                font-weight: bold;
+            }}
+        """)
+        self.meaning_label.setStyleSheet(f"""
+            QLabel {{
+                color: #f39c12;
+                font-size: {meaning_size}px;
+            }}
+        """)
+        self.onyomi_label.setStyleSheet(f"""
+            QLabel {{
+                color: #b5ead7;
+                font-size: {yomikata_size}px;
+            }}
+        """)
+        self.kunyomi_label.setStyleSheet(f"""
+            QLabel {{
+                color: #c7ceea;
+                font-size: {yomikata_size}px;
+            }}
+        """)
+
+    def resizeEvent(self, event):
+        """사용자가 창 크기를 바꾸면 메인 표시 글자도 함께 조정"""
+        super().resizeEvent(event)
+        if hasattr(self, 'hanja_label'):
+            self.apply_responsive_display_styles(dimmed=not self.showing_hanja)
     
     def load_cache_dropdown(self):
         """캐시된 파일 목록을 드롭다운에 로드"""
@@ -890,22 +1007,53 @@ class HanjaMemorizer(QMainWindow):
                 )
     
     def parse_dataframe(self, df):
-        """데이터프레임에서 한자 데이터 추출"""
+        """데이터프레임에서 한자 데이터 추출
+        새 시트 양식: 번호 / 한자 / 음(한국어) / 뜻(한국어) / 페이지 / 음독 / 훈독
+        """
         data = []
+
+        # 헤더 앞뒤 공백 제거
+        df.columns = [str(col).strip() for col in df.columns]
+
+        def clean_value(value):
+            """셀 값을 문자열로 정리"""
+            if pd.isna(value):
+                return ""
+            value = str(value).strip()
+            if value.lower() == "nan":
+                return ""
+            return value
+
+        def get_value(row, column_names, fallback_index=None):
+            """헤더명 우선, 없으면 기존 열 번호 방식으로 값 읽기"""
+            for column_name in column_names:
+                if column_name in row.index:
+                    value = clean_value(row[column_name])
+                    if value:
+                        return value
+
+            if fallback_index is not None and len(row) > fallback_index:
+                return clean_value(row.iloc[fallback_index])
+
+            return ""
         
         for _, row in df.iterrows():
             try:
-                hanja = str(row.iloc[1]) if pd.notna(row.iloc[1]) else ""
-                reading = str(row.iloc[2]) if pd.notna(row.iloc[2]) else ""
-                meaning = str(row.iloc[3]) if pd.notna(row.iloc[3]) else ""
+                hanja = get_value(row, ["한자"], 1)
+                reading = get_value(row, ["음(한국어)", "음", "한자음"], 2)
+                meaning = get_value(row, ["뜻(한국어)", "뜻", "한자뜻"], 3)
+                onyomi = get_value(row, ["음독", "音読み", "onyomi", "on"], 5)
+                kunyomi = get_value(row, ["훈독", "訓読み", "kunyomi", "kun"], 6)
                 
-                if hanja and hanja != "nan" and hanja != "한자":
+                if hanja and hanja != "한자":
                     data.append({
                         'hanja': hanja,
                         'reading': reading,
-                        'meaning': meaning
+                        'meaning': meaning,
+                        'onyomi': onyomi,
+                        'kunyomi': kunyomi
                     })
-            except:
+            except Exception:
                 continue
         
         return data
@@ -942,6 +1090,8 @@ class HanjaMemorizer(QMainWindow):
             self.hanja_label.setText("완료!")
             self.reading_label.setText("")
             self.meaning_label.setText("")
+            self.onyomi_label.setText("")
+            self.kunyomi_label.setText("")
             self.start_btn.setEnabled(False)
             return
         
@@ -1084,35 +1234,30 @@ class HanjaMemorizer(QMainWindow):
         self.hanja_label.setText(current['hanja'])
         self.reading_label.setText("")
         self.meaning_label.setText("")
+        self.onyomi_label.setText("")
+        self.kunyomi_label.setText("")
         
         # 암기완료 체크박스 상태 업데이트
         self.memorized_checkbox.blockSignals(True)
         self.memorized_checkbox.setChecked(is_memorized(current['hanja']))
         self.memorized_checkbox.blockSignals(False)
         
-        self.hanja_label.setStyleSheet("""
-            QLabel {
-                color: #ffffff;
-                font-size: 150px;
-                font-weight: bold;
-            }
-        """)
+        self.apply_responsive_display_styles(dimmed=False)
     
     def show_reading_meaning(self):
         if not self.hanja_list:
             return
             
         current = self.hanja_list[self.current_index]
-        self.reading_label.setText(current['reading'])
-        self.meaning_label.setText(current['meaning'])
+        self.reading_label.setText(current.get('reading', ''))
+        self.meaning_label.setText(current.get('meaning', ''))
+
+        onyomi = current.get('onyomi', '').strip()
+        kunyomi = current.get('kunyomi', '').strip()
+        self.onyomi_label.setText(f"음독: {onyomi}" if onyomi else "")
+        self.kunyomi_label.setText(f"훈독: {kunyomi}" if kunyomi else "")
         
-        self.hanja_label.setStyleSheet("""
-            QLabel {
-                color: #888888;
-                font-size: 150px;
-                font-weight: bold;
-            }
-        """)
+        self.apply_responsive_display_styles(dimmed=True)
     
     def update_progress(self):
         if self.hanja_list:

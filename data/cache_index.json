@@ -1,6 +1,14 @@
 {
   "files": [
     {
+      "name": "일본어_암기박사_상_한자목록_음독훈독추가",
+      "source_type": "local",
+      "source_path": "C:/Users/artsu/OneDrive/문서/GitHub/hanja_memorizer/일본어_암기박사_상_한자목록_음독훈독추가.xlsx",
+      "cache_file": "일본어_암기박사_상_한자목록_음독훈독추가_20260505_175955.json",
+      "cached_at": "20260505_175955",
+      "count": 1240
+    },
+    {
       "name": "일본어 암기박사(상)",
       "source_type": "local",
       "source_path": "C:/Users/PC/Documents/Github/artsung/hanja/일본어 암기박사(상).xlsx",
